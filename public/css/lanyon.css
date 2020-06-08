@@ -610,3 +610,11 @@ a.pagination-item:hover {
     list-style: outside none none !important;
     overflow: hidden;
 }
+
+/* display emoji inline */
+img.emoji {
+    display: inline;
+    height: 1em;
+    width: 1em;
+    margin-bottom: 0;
+}
