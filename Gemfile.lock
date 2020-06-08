@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (6.0.3.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
@@ -13,6 +19,10 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.13.0)
     forwardable-extended (2.6.0)
+    gemoji (3.0.1)
+    html-pipeline (2.13.0)
+      activesupport (>= 2)
+      nokogiri (>= 1.4)
     http_parser.rb (0.6.0)
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
@@ -45,6 +55,10 @@ GEM
       nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jemoji (0.12.0)
+      gemoji (~> 3.0)
+      html-pipeline (~> 2.2)
+      jekyll (>= 3.0, < 5.0)
     kramdown (2.2.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -55,6 +69,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.4.0)
+    minitest (5.14.1)
     multipart-post (2.1.1)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
@@ -77,7 +92,11 @@ GEM
       faraday (> 0.8, < 2.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
@@ -89,6 +108,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-toc
+  jemoji
 
 BUNDLED WITH
    2.1.4
