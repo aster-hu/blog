@@ -14,7 +14,8 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a {% if page.title == 'Home' %} active{% endif %} href="{{ '/' | absolute_url }}">Home</a>
+            <!-- <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a> -->
             <!-- <a href="{{ site.baseurl }}/">{{ site.title }}</a> -->
             <small>{{ site.tagline }}</small>
           </h3>
