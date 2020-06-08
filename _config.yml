@@ -4,7 +4,7 @@ tagline:             'Thoughts from a non-developer'
 description:         'Programming thoughts and experience as a non-developer'
 # url:                 "https://hasturhu.github.io"   #base hostname & protocol
 # baseurl:             "asteroid" #subpath of website
-baseurl:             "hasturhu.github.io"
+# baseurl:             "hasturhu.github.io"
 paginate:            5
 permalink:           /:title
 
