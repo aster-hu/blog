@@ -75,8 +75,7 @@ Mine got a 404 issue. Not sure why, but I managed to fix it thanks to [Nycen](ht
 git commit --allow-empty -m "Trigger rebuild"
 ```
 
-Tadaa! Now the site is finally on live! I might grab some ice-cream for celebration :icecream:!
-
+Tadaa! Now the site is finally on live! I might grab some ice-cream for celebration :icecream: !
 Anyways, whenever there's a change on local, run the following code to push update to Github.
 
 ```
