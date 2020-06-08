@@ -18,6 +18,7 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-toc
+  - jemoji
 
 # Custom vars
 version:             1.1.0
