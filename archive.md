@@ -8,7 +8,7 @@ title: Archive
   <h4>{{ yearMonth.name }}</h4>
   <ul>
     {% for post in yearMonth.items %}
-      <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
