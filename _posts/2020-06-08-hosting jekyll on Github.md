@@ -45,3 +45,9 @@ Run ```git add .``` to add the files
 > Username for 'https://github.com':
 
 >Password for 'https://hasturhu@github.com':
+
+
+Whenever change files on local, run
+1. `git add .`
+2. `git commit -m "commit messages"`
+3. `git push origin gh-pages`

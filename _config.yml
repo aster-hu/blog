@@ -24,14 +24,14 @@ version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
 
 #toc settings
-toc:
-  min_level: 1
-  max_level: 3
-  no_toc_section_class: no_toc_section
-  list_class: section-nav
-  sublist_class: ''
-  item_class: toc-entry
-  item_prefix: toc-
+# toc:
+#   min_level: 1
+#   max_level: 3
+#   no_toc_section_class: no_toc_section
+#   list_class: section-nav
+#   sublist_class: ''
+#   item_class: toc-entry
+#   item_prefix: toc-
 
 #Front matters settings
 defaults:
@@ -40,4 +40,4 @@ defaults:
     type: posts      # previously `post` in
   values:
     layout: post
-    toc: true
+    # toc: true
