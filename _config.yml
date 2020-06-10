@@ -1,7 +1,7 @@
 # Setup
 title:               Asteroid Space
 tagline:             'Thoughts from a non-developer'
-description:         'Programming thoughts and experience as a non-developer'
+description:         'Programming thoughts and experience from the perspective of a non-developer'
 # url:                 "https://hasturhu.github.io"   #base hostname & protocol
 # baseurl:             "asteroid" #subpath of website
 paginate:            5
