@@ -12,6 +12,8 @@ It involves the following functions/statements:
 - Print
 - While
 
+I chose this as my No.1 project, because I roll dices a lot in Dungeons and Dragons and it could be utilized in other projects that I might develop in the future.
+
 ## Code - Dice Roller
 Here is the code.
 
