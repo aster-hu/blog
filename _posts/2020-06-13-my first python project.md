@@ -1,5 +1,5 @@
 ---
-title: Dice Roller - My First Python Project
+title: "Python Project No.1: Dice Roller"
 ---
 
 ## The Idea of Dice Roller
