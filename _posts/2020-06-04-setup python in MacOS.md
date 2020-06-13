@@ -15,12 +15,10 @@ python3 --version
 #check python3 version
 ```
 
-### Update Python3 to Latest Version
+### Update Python3
 
-The python package can be downloaded from [official website](https://www.python.org).
-For me, I use [Homebrew](https://brew.sh), which is a great package manager on MacOS.
-
-Since I already installed Python on my Mac, I just ran the following to update Python3.
+If you don't have Python installed yet, you can simply downloaded the package from [official website](https://www.python.org).
+For me, since I already installed Python, I just upgrade it by [Homebrew](https://brew.sh), which is a great package manager on MacOS.
 
 ```
 brew update
