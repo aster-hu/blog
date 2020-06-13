@@ -24,7 +24,7 @@ Since I already installed Python on my Mac, I just ran the following to update P
 
 ```
 brew update
-brew update python3
+brew upgrade python3
 ```
 
 Then check the version again
