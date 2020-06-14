@@ -14,8 +14,20 @@ It involves the following functions/statements:
 
 I chose this as my No.1 project, because I roll dices a lot in Dungeons and Dragons and it could be utilized in other projects that I might develop in the future.
 
+## Run Python Script on MacOS
+
+Before digging into code, I should mention that Python scripts that involve user input cannot be run directly through code editor like [Atom](https://atom.io) as it can only generate output. To run those Python scripts, we need to use Terminal.
+
+```bash
+# navigate to working folder
+cd /Users/username/Documents/
+# run python file test.py
+Python3 test.py
+```
+
+
 ## Code - Dice Roller
-Here is the code.
+Here is the code for Dice Roller.
 
 ```python
 #import random module
