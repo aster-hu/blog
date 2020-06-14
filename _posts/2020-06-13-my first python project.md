@@ -14,7 +14,7 @@ It involves the following functions/statements:
 
 I chose this as my No.1 project, because I roll dices a lot in Dungeons and Dragons and it could be utilized in other projects that I might develop in the future.
 
-## Run Python Script on MacOS
+## Run Python on MacOS
 
 Before digging into code, I should mention that Python scripts that involve user input cannot be run directly through code editor like [Atom](https://atom.io) as it can only generate output. To run those Python scripts, we need to use Terminal.
 
