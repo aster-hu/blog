@@ -4,7 +4,7 @@ title: MacOS Couldn't Unmount Disk Issue (69888)
 
 ### The Unmount Issue
 
-This post doesn't have anything to do with programming, per se, but I still want to share it in case anybody run into the similar issue.
+This post doesn't have anything to do with programming, per se, but I still want to share it in case anybody run into similar issue.
 
 The issue happened when I tried to erase/repair the disk in Disk Utility during Recovery Mode. No matter what option chose, it just shew an error message
 
@@ -13,9 +13,9 @@ The issue happened when I tried to erase/repair the disk in Disk Utility during 
 >Couldn't unmount disk.
 
 ### Solutions I've Tried
-I realized it's mostly because I'm currently using the local recovery partition disk, so I have been searching and tried lots of possible solutions:
+I realized it's likely because I was using the local recovery partition disk, so I have been searching and trying some possible solutions:
 
-- Used an USB bootable installer for Mojave - which is the same system of the current disk - to boot. Same issue.
+- Used an USB bootable installer for Mojave to boot, which is the same system of the current disk. Same issue.
 
 - Went to Internet Recovery by pressing `Cmd` `option` `R`. Still doesn't work.
 
@@ -34,9 +34,9 @@ I realized it's mostly because I'm currently using the local recovery partition 
   Here is where things went wrong (again). I got the error:
   > Forced unmount of disk0 failed: at least one volume could not be unmounted
 
-- After the command line, I've been trying to unmount each one of the disks in the above list (there's 23 disks in total) and see if I can unmount disk0 - which is the one I'm struggling with - after that. No. No luck.
+- After the command line, I tried to unmount each one of the disks in the above list (there's 23 disks in total) and see if I can unmount disk0 after that. Nope. No luck.
 
-- Tried to put another command line `mount` to help identify what disks were actually mounted. Didn't find the issue. It doesn't look like desk0 has been using, as the system is booting from external drive.
+- Tried to put another command line `mount` to help identify what disks were actually mounted. Didn't find the issue. It doesn't look like disk0 has been using, as the system is booting from external drive.
 
 ### Now What?
 
