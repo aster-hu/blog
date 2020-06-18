@@ -51,8 +51,6 @@ git config --global user.email "myemail@email.com"
 git config --global user.name "myname"
 ```
 
-After entering, it will ask the password, just type it and press enter.
-
 ## Push Files to Github
 
 Copy the git link from Github repository, and run
