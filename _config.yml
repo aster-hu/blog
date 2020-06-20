@@ -1,0 +1,44 @@
+# Setup
+title:               Asteroid Space
+tagline:             'Thoughts from a non-developer'
+description:         'Programming thoughts and experience from the perspective of a non-developer'
+# url:                 "https://hasturhu.github.io"   #base hostname & protocol
+# baseurl:             "asteroid" #subpath of website
+paginate:            5
+permalink:           /:title
+
+# About/contact
+author:
+  name:              Aster Hu
+#  url:               https://twitter.com/mdo
+  email:             asterhu17@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-toc
+  - jemoji
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
+
+#toc settings
+# toc:
+#   min_level: 1
+#   max_level: 3
+#   no_toc_section_class: no_toc_section
+#   list_class: section-nav
+#   sublist_class: ''
+#   item_class: toc-entry
+#   item_prefix: toc-
+
+#Front matters settings
+defaults:
+- scope:
+    path: ''         # an empty string here means all files in the project
+    type: posts      # previously `post` in
+  values:
+    layout: post
+    # toc: true
