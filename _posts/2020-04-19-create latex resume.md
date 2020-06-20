@@ -4,13 +4,13 @@ title: Create Résumé/CV Using LaTex
 
 ## Why LaTex Resume?
 
-#### Modularity
+### Modularity
 One of the main reasons I switch to LaTex from Word. It's modular so I can easily customize the module I need to tailor the position.
 
-#### Complex formatting
+### Complex formatting
 It is just beautiful. A glimpse on any LaTex resume and you would know what I mean.
 
-#### Easier to maintain
+### Easier to maintain
 I can focus more on the content itself and no need to worry about format.
 
 There're cons, of course. The learning curve is quite high, especially at the beginning as you need to setup everything correctly. However, once the setup is done, any changes take very minimal time compared to Microsoft Word.
@@ -37,7 +37,7 @@ There're lots of resume template on [Overleaf](https://www.overleaf.com/). The t
 
 ## Customization
 
-#### Colour
+ Colour
 The color is in HTML colour code and can be changed in `main.tex`.
 Here is the colour I use.
 ```
@@ -51,10 +51,10 @@ Here is the colour I use.
 \colorlet{body}{LightGrey}
 ```
 
-#### Section
+### Section
 There're many sections that I don't need, e.g. *A Day of My life*, *referees*. Simply searched the keyword and deleted `\cvsection{keyword}` and other related contents from `main.tex`.
 
-#### Symbols
+### Symbols
 
 I found the symbols for email and address is a bit weird, so I changed them in `altacv.cls`.
 
