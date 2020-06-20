@@ -57,7 +57,7 @@ Every time when we need to re-run the server, repeat step 2-3.
 When creating drafts in `/_drafts` folder, they are not showing on the site. To review drafts, run the server with draft-enabled.
 
 ```
-jerkll serve --draft
+jerkll serve --drafts
 ```
 
 ## Front Matters Settings
