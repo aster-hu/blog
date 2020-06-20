@@ -1,5 +1,5 @@
 ---
-title: MacOS Couldn't Unmount Disk Issue (69888)
+title: "MacOS Disk Troubleshoot: Couldn't Unmount Disk Issue (69888)"
 ---
 
 ### The Unmount Issue
