@@ -71,5 +71,5 @@ After
 
 More LaTex web icons can be found in [here](http://texdoc.net/texmf-dist/doc/fonts/fontawesome/fontawesome.pdf).
 
-The final result looks like this.
+The final result looks like this. Isn't it beautiful?
 ![Imgur](https://i.imgur.com/kWSrvDb.png)
