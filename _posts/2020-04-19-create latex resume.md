@@ -1,5 +1,6 @@
 ---
 title: Create Résumé/CV Using LaTex
+comments_id: 1
 ---
 
 ## Why LaTex Resume?
