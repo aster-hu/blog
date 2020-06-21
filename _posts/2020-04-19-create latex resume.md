@@ -21,7 +21,7 @@ There're cons, of course. The learning curve is quite high, especially at the be
 I installed MacTex via `cask`. I know it's large (4GB) compared to BasicTex, but I've been testing it and turns out there's always some issue with BasicTex (e.g. cannot locate dependencies). Here is a [detailed comparison](https://sourabhbajaj.com/mac-setup/LaTeX/).
 
 Install `cask` by Homebrew if you haven't.
-```
+```shell
 brew install cask
 ```
 
@@ -41,7 +41,8 @@ There're lots of resume template on [Overleaf](https://www.overleaf.com/). The t
 ### Colour
 The colour is in HTML colour code and can be changed in `main.tex`.
 Here is the colour I use.
-```
+
+```LaTeX
 \definecolor{Teal}{HTML}{009688}
 \definecolor{Darkteal}{HTML}{408F96}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
@@ -60,12 +61,12 @@ There're many sections that I don't need, e.g. *A Day of My life*, *referees*. S
 I found the symbols for email and address is a bit weird, so I changed them in `altacv.cls`.
 
 Before
-```
+```LaTeX
 \NewInfoField{email}{\faAt}[mailto:]
 \NewInfoField{mailaddress}{\faEnvelope}
 ```
 After
-```
+```LaTeX
 \NewInfoField{email}{\faEnvelope}[mailto:]
 \NewInfoField{mailaddress}{\faHome}
 ```

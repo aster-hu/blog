@@ -10,7 +10,7 @@ The theme is based on [Poole](https://github.com/poole) so I followed their [ins
 
 If there's any error message when running the server, double check if all dependencies has been installed.
 
-```
+```shell
 bundle install
 ```
 

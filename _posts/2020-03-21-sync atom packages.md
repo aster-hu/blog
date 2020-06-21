@@ -33,7 +33,7 @@ Same as above, do it on the device that needs to be backed up
 
 ## Create Backup
 
-On the same device, use `Cmd` `Shift` `P` to open Atom Command Palette.
+On the same device, use <kbd>Cmd⌘</kbd> <kbd>Shift⇧</kbd> <kbd>P</kbd> to open Atom Command Palette.
 
 In the pop up window, enter `sync-settings` and choose `sync-settings: backup`. There should be a window notifying that the backup has been created.
 
@@ -45,6 +45,6 @@ Now we need to get the same `gist id` and paste to the second device.
 3. Open the gist, copy the last part of url after the username
 > https://gist.github.com/username/this-part-is-gist-id
 4. Paste the `gist id` in sync-settings configuration under `Gist ID`
-5. `Cmd` `Shift` `P` to open Atom Command Palette, and enter `sync-settings: restore`
+5. <kbd>Cmd⌘</kbd> <kbd>Shift⇧</kbd> <kbd>P</kbd> to open Atom Command Palette, and enter `sync-settings: restore`
 
 Now just grab a coffee and wait until Atom finish installing all packages. The settings and packages have been synced between two devices.

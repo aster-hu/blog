@@ -17,16 +17,16 @@ I realized it's likely because I was using the local recovery partition disk, so
 
 - Used an USB bootable installer for Mojave to boot, which is the same system of the current disk. Same issue.
 
-- Went to Internet Recovery by pressing `Cmd` `option` `R`. Still doesn't work.
+- Went to Internet Recovery by pressing <kbd>Cmd ⌘</kbd> <kbd>Option ⌥</kbd> <kbd>R</kbd>. Still doesn't work.
 
 - Used [command line](https://www.amsys.co.uk/disk-utility-tip-fix-couldnt-unmount-disk-errors/) to force unmount disk within above two modes.
 
   Open terminal in recovery mode, enter
-  ```
+  ```bash
   diskutil list
   ```
   It gonna show up all disks. Find the disk needs to be unmounted, get the identifier and run
-  ```
+  ```bash
   diskutil unmountDisk /dev/disk0
   # disk0 is my disk's identifier
   ```

@@ -14,7 +14,7 @@ In the last step where I checked jekyll version `jekyll -v` , I got some error m
 
 After some research, it was resolved by updating some old dependencies (source: [#6227](https://github.com/jekyll/jekyll/issues/6227)).
 
-```
+```ruby
 bundle update
 ```
 
@@ -24,18 +24,18 @@ Giraffe Academy's [video series](https://youtu.be/pxua_1vyFck) is really helpful
 
 1. Create site server:
 
-```
+```ruby
 jekyll new Sitename
 ```
 2. Direct to the site directory (*sitename* is also the name of the root folder).
 
-```
+```shell
 cd sitename/
 ```
 
 3. Run server:
 
-```
+```ruby
 bundle exec jekyll serve
 ```
 
@@ -47,7 +47,7 @@ In this step, I got the error below:
 
 The message is quite straightforward so I just followed the instruction and run
 
-```
+```ruby
 bundle install
 ```
 
@@ -56,7 +56,7 @@ Every time when we need to re-run the server, repeat step 2-3.
 ## Review Draft Posts
 When creating drafts in `/_drafts` folder, they are not showing on the site. To review drafts, run the server with draft-enabled.
 
-```
+```ruby
 jerkll serve --drafts
 ```
 
@@ -76,10 +76,10 @@ defaults:
     layout: post
 ```
 
-Now be careful when using `Tab` for incident, as it might cause extra space therefore failed the server. (source: [here](https://stackoverflow.com/questions/33066015/jekyll-config-yml-did-not-find-expected-key-while-parsing-a-block-mapping))
+Now be careful when using <kbd>Tab ⇥</kbd> for incident, as it might cause extra space therefore failed the server. (source: [here](https://stackoverflow.com/questions/33066015/jekyll-config-yml-did-not-find-expected-key-while-parsing-a-block-mapping))
 
 Rerun the server.
 
-```
+```ruby
 bundle exec jekyll serve
 ```
