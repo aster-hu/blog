@@ -64,7 +64,7 @@ jerkll serve --drafts
 
 Front Matters Settings are the pre-determined settings that applies to all or some of the posts. I added the following default settings in `_config.yml` file.
 
-```
+```yaml
 permalink: /:title  # permanent link will be default to title name
 
 #Front matters settings
