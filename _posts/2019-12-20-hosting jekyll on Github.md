@@ -21,7 +21,7 @@ cd to the website directory and run
 
 ```
 git init                    #initialize a empty Git on local.
-git checkout -b gh-pages    #switch to a new branch gh-pages
+git checkout -b master      #switch to a new branch master
 git status                  #display all files
 ```
 
@@ -57,7 +57,7 @@ Copy the git link from Github repository, and run
 ```
 git remote add origin https://github.com/hasturhu/asteroid.git
 
-git push origin gh-pages     #push all files to gh-pages branch
+git push origin master     #push all files to master branch
 ```
 
 It asked me about the username and password on Github. Enter the credentials as instructed.
