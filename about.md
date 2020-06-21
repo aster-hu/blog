@@ -12,6 +12,7 @@ In here, I will be sharing my programming thoughts and experience as a non-devel
 
 Thanks for reading!
 
+<br><br><br>
 <hr>
 
 You can contact me at [asterhu17@gmail.com](mailto:asterhu17@gmail.com).
