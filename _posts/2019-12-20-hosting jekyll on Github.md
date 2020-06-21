@@ -48,7 +48,7 @@ Follow the instruction and put the email address and my name.
 
 ```
 git config --global user.email "myemail@email.com"
-git config --global user.name "myname"
+git config --global user.name "githubusername"
 ```
 
 ## Push Files to Github
