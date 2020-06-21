@@ -7,7 +7,7 @@ title: About
 
 **Aloha!**
 
-My name is Aster. As a person working at the bank, I do not have CS background but I'm eager to learn and thrive.
+My name is Aster. As a person working at the bank, I do not have Computer Science background but I'm eager to learn and thrive.
 In here, I will be sharing my programming thoughts and experience as a non-developer.
 
 Thanks for reading!
