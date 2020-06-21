@@ -2,7 +2,7 @@
 title: "MacOS Disk Troubleshoot: Couldn't Unmount Disk Issue (69888)"
 ---
 
-### The Unmount Issue
+## The Unmount Issue
 
 This post doesn't have anything to do with programming, per se, but I still want to share it in case anybody run into similar issue.
 
@@ -12,7 +12,7 @@ The issue happened when I tried to erase/repair the disk in Disk Utility during 
 >
 >Couldn't unmount disk.
 
-### Solutions I've Tried
+## Solutions I've Tried
 I realized it's likely because I was using the local recovery partition disk, so I have been searching and trying some possible solutions:
 
 - Used an USB bootable installer for Mojave to boot, which is the same system of the current disk. Same issue.
@@ -38,7 +38,7 @@ I realized it's likely because I was using the local recovery partition disk, so
 
 - Tried to put another command line `mount` to help identify what disks were actually mounted. Didn't find the issue. It doesn't look like disk0 has been using, as the system is booting from external drive.
 
-### Now What?
+## Now What?
 
 OK. At this point, I'm quite desperate. Then I found [this post](https://discussions.apple.com/thread/250763252?page=2) where OP mentioned their problem has been resolved by using a High Sierra USB installer. Alright, I will try as a last resort.
 

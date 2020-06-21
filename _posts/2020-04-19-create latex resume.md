@@ -38,8 +38,8 @@ There're lots of resume template on [Overleaf](https://www.overleaf.com/). The t
 
 ## Customization
 
- Colour
-The color is in HTML colour code and can be changed in `main.tex`.
+### Colour
+The colour is in HTML colour code and can be changed in `main.tex`.
 Here is the colour I use.
 ```
 \definecolor{Teal}{HTML}{009688}
