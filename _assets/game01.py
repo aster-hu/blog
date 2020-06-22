@@ -3,9 +3,6 @@ from textwrap import dedent
 yes_no = ["yes", "no"]
 directions = ["west", "east", "south", "north"]
 
-#Old house
-# print("\nYou are in front of an old white house.")
-
 # Start of game
 response = ""
 while response not in yes_no:
@@ -18,7 +15,7 @@ while response not in yes_no:
     else:
         print("\nI didn't understand that.\n")
 
-# Next part of game
+#Old House
 response = ""
 while response not in directions:
     response = input("What direction do you want to move? (west/east/north/south)\n")
@@ -27,7 +24,6 @@ while response not in directions:
         response = ""
     elif response == "east":
         print("\nYou're in the east of house. There's an open, small window.")
-        # break
     elif response == "south":
         print("\nYou're already in the south of house. You can see a locked door in front of you.")
         response = ""
@@ -40,6 +36,7 @@ while response not in directions:
     else:
         print("\nI didn't understand that.\n")
 
+#Kitchen
 response = ""
 while response not in yes_no:
     response = input("Do you want to open the window? (yes/no) \n")
@@ -53,10 +50,3 @@ while response not in yes_no:
     elif response == "no":
         print("\nGoodbye.")
         quit()
-
-# response = ""
-# while response not in directions:
-#     response = input("What direction do you want to go? (west/east/north/south)\n")
-#     if response == "west":
-#         print("\nYou're in the living room.\n")
-# while response not in directions
