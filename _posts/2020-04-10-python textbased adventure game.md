@@ -19,7 +19,7 @@ response = input("Would you like to step in?(yes/no)\n")
 ## If Statements
 Ah, the magic statement in every language.
 
-Note that Python's `If` result cannot be empty. If there's no action, put `pass` in the statements instead.
+Note that Python's `If` result cannot be empty. If there's no action, put `pass` in the statement instead.
 
 ```python
 if response == "yes":
@@ -65,12 +65,12 @@ from textwrap import dedent
 
   desc = dedent("""
   You find yourself standing in a kitchen. There's some food on a table.
-  On the corner, you can see a brass lantern and a knife on the counter.
+  In the corner, you can see a brass lantern and a knife on the counter.
   A hallway is in the west of the kitchen.
   """)
   print(desc)
 ```
 Output:
 >You find yourself standing in a kitchen. There's some food on a table.
->On the corner, you can see a brass lantern and a knife on the counter.
+>In the corner, you can see a brass lantern and a knife on the counter.
 >A hallway is in the west of the kitchen.

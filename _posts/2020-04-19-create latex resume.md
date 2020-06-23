@@ -34,9 +34,13 @@ brew cask install mactex
 
 There're lots of resume template on [Overleaf](https://www.overleaf.com/). The template I'm using is based on [AltaCV](https://www.overleaf.com/latex/templates/altacv-template/trgqjpwnmtgv). Open as Template and then download the Source. You can edit and compile directly on Overleaf as well, but I prefer a local copy.
 
-![Imgur](https://i.imgur.com/3JxGjcb.png)
+The template is good but not exactly what I'm looking for, so I will do some customization.
+<img src="https://i.imgur.com/3JxGjcb.png" width="400" height="560" />
 
 ## Customization
+
+### Section
+There're many sections that I don't need, e.g. *A Day of My life*, *referees*. Simply searched the keyword and deleted `\cvsection{keyword}` and other related contents from `main.tex`.
 
 ### Colour
 The colour is in HTML colour code and can be changed in `main.tex`.
@@ -52,9 +56,6 @@ Here is the colour I use.
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 ```
-
-### Section
-There're many sections that I don't need, e.g. *A Day of My life*, *referees*. Simply searched the keyword and deleted `\cvsection{keyword}` and other related contents from `main.tex`.
 
 ### Symbols
 
