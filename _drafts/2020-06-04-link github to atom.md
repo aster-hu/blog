@@ -25,7 +25,18 @@ After that, it will ask you to click a link to generate a token for authenticati
 
 It's super easy. Simply go to menu `File` - `Add Project Folder` and choose the parent folder which contains `.git`. Atom will recognize it.
 
-
 ## How to Upload
 
-![]https://i.imgur.com/g7Mt3zJ.png
+Now the Git/Github panel will look like below. Any changes we made, the file we changed will change color in tree-view sidebar, and it will also show under `Unstaged Changes` on the right.
+
+![](https://i.imgur.com/g7Mt3zJ.png)
+
+Once we clicked `Stage All`, all files will move to `Staged Changes`.
+
+Now put some comments under `Commit message` and use <kbd>Cmd </kbd> <kbd>Enter </kbd> to confirm. This step is equal to `git commit -m "message"`
+
+![](https://i.imgur.com/4G6n4SX.png)
+
+The comments and `Push` request will be updated. Click `Push` to push the change to Github. It is equal to `git push origin master`
+
+![](https://i.imgur.com/o8A8ues.png)
