@@ -1,5 +1,5 @@
 ---
-title: How to Upload Github Project from Atom
+title: How to Link and Manage Github Project in Atom
 ---
 Obviously, we need a Github account and project to get start with.
 
@@ -23,11 +23,13 @@ After that, it will ask you to click a link to generate a token for authenticati
 
 #### Project in Local
 
-It's super easy. Simply go to menu `File` - `Add Project Folder` and choose the parent folder which contains `.git`. Atom will recognize it.
+It's super easy. Simply go to menu `File` - `Add Project Folder` and choose the parent folder which contains `.git`. Click `Github` on the right corner, it will ask for authentication token just as above. Once it's verified, Atom will recognize it.
 
-## How to Upload
+## How to Push Request from Local to Github
 
-Now the Git/Github panel will look like below. Any changes we made, the file we changed will change color in tree-view sidebar, and it will also show under `Unstaged Changes` on the right.
+`Push Request` is a term to describe the changes will be uploaded from local to Github.
+
+After setup, the Git/Github panel will look like below. Any changes we made, the file we changed will change color in tree-view sidebar, and it will also show under `Unstaged Changes` on the right.
 
 ![](https://i.imgur.com/g7Mt3zJ.png)
 
@@ -40,3 +42,12 @@ Now put some comments under `Commit message` and use <kbd>Cmd </kbd> <kbd>Enter 
 The comments and `Push` request will be updated. Click `Push` to push the change to Github. It is equal to `git push origin master`
 
 ![](https://i.imgur.com/o8A8ues.png)
+
+## How to Pull Request from Github to Local
+
+In contrary to `Push Request`, `Pull Request` means the changes will be downloaded from Github to local folder. To do this, click `Fetch` button on the right corner.
+![](https://i.imgur.com/Q2mHYjY.png)
+
+If there's any change available, it will show `Pull x`. Click it to execute `Pull Request`.
+
+[Screen Shot 2020-06-27 at 2.06.52 AM](https://i.imgur.com/yUFaOQB.png)
