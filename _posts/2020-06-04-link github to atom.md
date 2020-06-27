@@ -58,4 +58,4 @@ In contrary to `Push Request`, `Pull Request` means the changes will be download
 
 If there's any change available, it will show `Pull x`. Click it to execute `Pull Request`.
 
-![Screen Shot 2020-06-27 at 2.06.52 AM](https://i.imgur.com/yUFaOQB.png)
+![Screen Shot 2020-06-27 at 2.06.52 AM](https://i.imgur.com/xbpXmPk.png)
