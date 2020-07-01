@@ -32,7 +32,8 @@ pip install seaborn
 
 
 ```shell
-python3 -m pip install --user numpy scipy matplotlib pandas statsmodels
+python3 -m pip install --user numpy scipy matplotlib pandas
+statsmodels
 
 #additionally, install ipykernel for Hydrogen
 python3 -m pip install --user ipykernel

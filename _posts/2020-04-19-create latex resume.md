@@ -35,7 +35,7 @@ brew cask install mactex
 There're lots of resume template on [Overleaf](https://www.overleaf.com/). The template I'm using is based on [AltaCV](https://www.overleaf.com/latex/templates/altacv-template/trgqjpwnmtgv). Open as Template and then download the Source. You can edit and compile directly on Overleaf as well, but I prefer a local copy.
 
 The template is good but not exactly what I'm looking for, so I will do some customization.
-<img src="https://i.imgur.com/3JxGjcb.png" width="400" height="560" />
+<img src="{{site.baseurl}}/assets/latexresume1.png" width="600" height="800" />
 
 ## Customization
 
@@ -75,4 +75,4 @@ After
 More LaTex web icons can be found in [here](http://texdoc.net/texmf-dist/doc/fonts/fontawesome/fontawesome.pdf).
 
 The final result looks like this. Isn't it beautiful?
-![Imgur](https://i.imgur.com/kWSrvDb.png)
+![Imgur](/assets/latexresume2.png)
