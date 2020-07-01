@@ -16,11 +16,11 @@ Download and install directly from [latest release](https://github.com/mileswd/m
 ## Usage
 Sign in Imgur account first.
 
-![Imgur](https://i.imgur.com/jEoUTI8.png)
+![Imgur](/assets/imgur1.png))
 
 Whenever do a screenshot on Mac (<kbd>Cmd⌘</kbd> <kbd>Shift⇧</kbd> <kbd>4</kbd>), it will automatically upload the screenshot to Imgur and copy image URL to clipboard.
 
-![Imgur](https://i.imgur.com/KavpJsA.png)
+![Imgur](/assets/imgur2.png)
 
 If you need to upload a picture other than screenshot, simply drag the image to the menu bar icon, and it will do the work.
 
