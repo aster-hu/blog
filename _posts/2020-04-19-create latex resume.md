@@ -3,6 +3,11 @@ title: Create Résumé/CV Using LaTex
 comments_id: 1
 ---
 
+## Outcome
+
+My final resume looks like this:
+![Imgur](/assets/latexresume2.png)
+<br>
 ## Why LaTex Resume?
 
 ### Modularity
@@ -20,7 +25,7 @@ There're cons, of course. The learning curve is quite high, especially at the be
 
 I installed MacTex via `cask`. I know it's large (4GB) compared to BasicTex, but I've been testing it and turns out there's always some issue with BasicTex (e.g. cannot locate dependencies). Here is a [detailed comparison](https://sourabhbajaj.com/mac-setup/LaTeX/).
 
-Install `cask` by Homebrew if you haven't.
+Install `cask` by [Homebrew](https://brew.sh/) if you haven't.
 ```shell
 brew install cask
 ```
@@ -61,18 +66,17 @@ Here is the colour I use.
 
 I found the symbols for email and address is a bit weird, so I changed them in `altacv.cls`.
 
-Before
+
 ```LaTeX
+% Before
 \NewInfoField{email}{\faAt}[mailto:]
 \NewInfoField{mailaddress}{\faEnvelope}
-```
-After
-```LaTeX
+% ----------------------------------------
+% After
 \NewInfoField{email}{\faEnvelope}[mailto:]
 \NewInfoField{mailaddress}{\faHome}
 ```
 
 More LaTex web icons can be found in [here](http://texdoc.net/texmf-dist/doc/fonts/fontawesome/fontawesome.pdf).
 
-The final result looks like this. Isn't it beautiful?
-![Imgur](/assets/latexresume2.png)
+Then you will have the final template shows in the beginning. Isn't it beautiful?
