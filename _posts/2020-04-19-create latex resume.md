@@ -11,7 +11,7 @@ My final resume looks like this:
 ## Why LaTex Resume?
 
 ### Modularity
-One of the main reasons I switch to LaTex from Word. It's modular so I can easily customize the module I need to tailor the position.
+One of the main reasons I switch to LaTex from Word. It's modular so I can easily customize the module to tailor the position.
 
 ### Complex formatting
 It is just beautiful. A glimpse on any LaTex resume and you would know what I mean.
