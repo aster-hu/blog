@@ -42,3 +42,12 @@ defaults:
   values:
     layout: post
     # toc: true
+
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# markdown: kramdown
+markdown: kramdown
+highlighter: rouge
