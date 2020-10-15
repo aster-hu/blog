@@ -1,5 +1,5 @@
 ---
-title: "From Excel to R: Introduction"
+title: "From Excel to R: Beginner's Guide"
 ---
 
 ## What is R and why?
@@ -16,7 +16,7 @@ Download R from [CRAN official website](https://cloud.r-project.org), then insta
 
 R has many powerful packages and can be installed from RStudio directly. There're only two packages need to be installed for now: `tidyverse` and `openxlsx`. To do it, go to menu bar - `Tool` - `Install Packages`, put the name of the package and click Install.
 
-## Import CSV and Excel Files
+## Import csv/xlsx Files
 
 There's some prep needed to be done before any "actual" code. It is essential for every R script.
 
@@ -37,12 +37,11 @@ setwd("/Users/aster/myworkingdir")
 Then we can import our raw data. Ideally, `csv` is preferred if it is available.
 
 ```r
-prod <- read.csv('Sales.csv')
-sale <- read.csv('Product.csv')
+sale <- read.csv('Sales.csv')
 # prod/sale is the assigned name of the imported dataframe
 ```
 
-If it's `xlsx` file:
+If the file is `xlsx`, the function would be `read.xlsx` instead, and we need to specify the name of worksheet when importing.
 
 ```r
 df <- read.xlsx('sample.xlsx',          # Name of the workbook
@@ -51,19 +50,22 @@ df <- read.xlsx('sample.xlsx',          # Name of the workbook
                 )
 ```
 
+Let's take a glimpse on the imported dataframe.
+
+![](/assets/sale.head.png)
+
 ## Filter Columns
 
-Filtering in Excel is easy when there're only a few columns. What if there're more than 30+? Even finding the right column takes time. In such cases, R becomes a more handy tool.
+Filtering in Excel is not difficult when there're only a few columns. What if there're more than 30? Even finding the right column takes time. In such cases, R becomes a handy tool. We put names in the script instead of searching through endless columns, and R has the autocomplete feature when typing the name, making the process even smoother.
 
 ```r
 # filter Region = Asia
 asiaonly <- sale %>% filter(Region == 'Asia')
 ```
 
-Note that it should be `double equal` when relates to value.
+Note that it should be `double equal` if it relates to specific value (e.g. strings, integer).
 
-If I want to apply multiple filters, simply add more conditions inside the bracket.
-
+To apply multiple filters, simply add more conditions inside the bracket.
 
 ```r
 # multiple filters:
@@ -73,17 +75,27 @@ asiaonly <- sale %>% filter(Region == 'Asia',
                             Sales.Channel == 'Online')
 ```
 
-## Hide Columns
+## Remove Unwanted Columns
 
 For example, if we only need to review the first and second columns:
 
 ```r
-# Show only column 1-2, and hide other columns
-twocols <- sale %>% select(1:2)
+# Show only first two clumns, and remove other columns
+regioncountry <- sale %>% select(1:2)
 ```
 
-Usually, it's easier to use column names (aka **variables** in R).
+Usually, it's easier to use column names (aka **variables** in R) when dealing with non-consecutive columns.
+
 ```r
-# Show Regions and Channel, and hide other columns
-anothertwocols <- sale %>% select(Region, Sales.Channel)
+# Show Regions and Channel only, and remove other columns
+regionchannel <- sale %>% select(Region, Sales.Channel)
 ```
+
+If we want to remove a certain column while keep everything else, apply a minus sign in front of variables.
+
+```r
+# Remove Channel column
+nochannel <- sale %>% select(-Sales.Channel)
+```
+
+Those are basic functions that I've been used all the time. Next post I'll introduce more advanced functions that Excel normally cannot handle.
