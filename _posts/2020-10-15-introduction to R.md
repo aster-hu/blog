@@ -28,7 +28,7 @@ library(tidyverse)
 library(openxlsx)
 ```
 
-Second step is to setup the working directory, which is the default folder to import/export documents.
+Second step is to setup the working directory, which is the default folder to import/export documents. R only recognizes forward slash, which is contrary to Windows' backslash, so you would need to make changes if you are on Windows system.
 
 ```r
 setwd("/Users/aster/myworkingdir")
