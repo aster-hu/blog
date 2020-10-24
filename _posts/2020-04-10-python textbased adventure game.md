@@ -50,7 +50,7 @@ while response not in yes_no:
 
 ## Dedent
 
-#### Print Multiple Lines without Indent
+### Print Multiple Lines without Indent
 
 Here comes the little challenge. Enclosed with triple quotes is the way to print multiple lines, however, it will also display indent like below.
 
