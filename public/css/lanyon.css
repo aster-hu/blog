@@ -110,7 +110,7 @@ h5 {
 }
 @media (min-width: 56em) {
   .container {
-    max-width: 38rem;
+    max-width: 45rem;
   }
   .container a {
     color: #009688;
