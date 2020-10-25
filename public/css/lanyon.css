@@ -51,8 +51,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+h1 {
+  font-size: 28px;
+}
+
 h2 {
     margin-top:1.75rem;
+    font-size: 26px;
 }
 
 h2:after
@@ -63,6 +68,17 @@ h2:after
     border-bottom:0.3px solid #EEEEEE;
 }
 
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
 /*
  * Wrapper
  *
@@ -111,7 +127,7 @@ h2:after
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
@@ -121,7 +137,7 @@ h2:after
   /* #505050; */
 }
 .masthead-title a {
-  /* font-size: 110%; */
+  font-size: 150%;
   color: #009688;
 }
 .masthead-title small {
@@ -325,7 +341,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
