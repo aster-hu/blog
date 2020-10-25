@@ -1,6 +1,8 @@
 ---
 title: "From Excel to R: Beginner's Guide"
 ---
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## What is R and why?
 
