@@ -156,8 +156,10 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  /* color: #bf616a; */
+  color: #c76b29;
+  background-color: #f5f7ff;
+  /* background-color: transparent; */
   border-radius: 3px;
 }
 pre {
@@ -172,6 +174,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
+  /* background-color: #2d2d2d; */
 }
 pre code {
   padding: 0;
