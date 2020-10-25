@@ -144,7 +144,7 @@ h5 {
 }
 .masthead-title small {
   font-size: 75%;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: #c0c0c0;
   letter-spacing: 0;
 }
