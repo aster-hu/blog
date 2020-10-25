@@ -41,7 +41,8 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  /* font-family: "PT Serif", Georgia, "Times New Roman", serif; */
+  font-family: system-ui;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -131,13 +132,14 @@ h5 {
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
+  font-weight: 1000;
   margin-top: 0;
   margin-bottom: 0;
   color: #009688;
   /* #505050; */
 }
 .masthead-title a {
-  font-size: 150%;
+  font-size: 140%;
   color: #009688;
 }
 .masthead-title small {
@@ -353,6 +355,7 @@ a.sidebar-nav-item:focus {
 }
 .page-title,
 .post-title {
+  font-weight: 900;
   margin-top: 0;
 }
 
