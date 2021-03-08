@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aboutpage
 title: About
 ---
 
@@ -16,3 +16,4 @@ Thanks for reading!
 <hr>
 
 You can contact me at [asterhu17@gmail.com](mailto:asterhu17@gmail.com).
+<br>
