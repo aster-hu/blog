@@ -4,7 +4,13 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date">{{ page.date | date_to_string }}<br>
+    <!-- add tags in metadata -->
+    {% if page.tags.size > 0 %}
+    Tag{% if page.tags.size > 1 %}s{% endif %}:
+    {{ page.tags | sort | join: ", " }}
+    {% endif %}
+  </span>
   {{ content }}
 </div>
 

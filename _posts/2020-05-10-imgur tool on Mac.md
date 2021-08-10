@@ -1,5 +1,6 @@
 ---
 title: Imgur Upload Tool for Mac
+tags: random
 ---
 
 When I'm writing blog, I often need to attach picture URL from Imgur. It becomes extremely annoying to open Imgur each time to upload and copy URL, so I started looking for plugins/tools to make the process easier.

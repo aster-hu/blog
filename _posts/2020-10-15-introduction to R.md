@@ -1,6 +1,6 @@
 ---
 title: "From Excel to R: Beginner's Guide"
-category: R
+tags: R
 ---
 
 ## What is R and why?

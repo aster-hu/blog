@@ -51,3 +51,8 @@ kramdown:
 # markdown: kramdown
 markdown: kramdown
 # highlighter: rouge
+
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
