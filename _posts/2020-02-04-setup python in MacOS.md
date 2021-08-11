@@ -1,5 +1,6 @@
 ---
 title: How to Setup Python in MacOS
+tags: macos python
 ---
 
 

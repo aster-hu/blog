@@ -1,5 +1,6 @@
 ---
 title: "MacOS Disk Troubleshoot: Couldn't Unmount Disk Issue (69888)"
+tags: macos hardware
 ---
 
 ## The Unmount Issue

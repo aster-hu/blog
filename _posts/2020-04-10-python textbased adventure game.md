@@ -1,5 +1,6 @@
 ---
 title: "Python Project No.2: Text-based Adventure Game"
+tags: python
 ---
 
 This idea immediately brought to my attention because I'm a fan of [Zork](https://en.m.wikipedia.org/wiki/Zork). For those of you don't know, Zork it's one of the earliest interactive fiction computer games, and it's text-based.

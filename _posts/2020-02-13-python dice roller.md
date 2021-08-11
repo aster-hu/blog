@@ -1,5 +1,6 @@
 ---
 title: "Python Project No.1: Dice Roller"
+tags: python
 ---
 
 ## The Idea of Dice Roller

@@ -1,6 +1,6 @@
 ---
 title: How to Link and Manage Github Project in Atom
-tags: github
+tags: github atom
 ---
 Obviously, we need a Github account and project to get start with.
 
