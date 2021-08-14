@@ -2,7 +2,7 @@
 title:               Asteroid Space
 tagline:             '&nbsp;&nbsp; learning · programming · sketching · random thoughts'
 description:         'Thoughts and experience from the perspective of a non-developer'
-url:                 "https://hasturhu.github.io"   #base hostname & protocol
+url:                 "https://asterhu.github.io"   #base hostname & protocol
 baseurl:             "" #subpath of website
 paginate:            10
 permalink:           /:title
