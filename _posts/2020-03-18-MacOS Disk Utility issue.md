@@ -1,50 +1,61 @@
 ---
-title: "MacOS Disk Troubleshoot: Couldn't Unmount Disk Issue (69888)"
+title: "I Found an iMac in the Garbage Room"
 tags: macos hardware
 ---
 
-## The Unmount Issue
+## A Mac in Garbage Suite?
 
-This post doesn't have anything to do with programming, per se, but I still want to share it in case anybody run into similar issue.
+It sounds super weird, but I found a 27' iMac when I went to throw out garbage.
+The screen looked unscratched, so I told my partner we should grab it. I am confident of my ability to fix electronics and it could be a worthy investment if succeed.
 
-The issue happened when I tried to erase/repair the disk in Disk Utility during Recovery Mode. No matter what option chose, it just shew an error message
+## Troubleshooting the Disk Issue
 
->Erase failed.
+I was able to boot the iMac. This was a good start.
+
+However the screen stopped at the Apple logo. Usually it can be repaired through Apple's default tool **Disk Utility**.
+
+A New issue happened when I tried to erase/repair the disk in Disk Utility during Recovery Mode. No matter what option I chose, it just showed an error message:
+
+> Erase failed.
 >
->Couldn't unmount disk.
+> Couldn't unmount disk (69888).
 
-## Solutions I've Tried
-I realized it's likely because I was using the local recovery partition disk, so I have been searching and trying some possible solutions:
+I realized it's likely because I was using the local recovery partition disk. It was similar to error message that you get when trying to delete a file that is still opened.
 
-- Used an USB bootable installer for Mojave to boot, which is the same system of the current disk. Same issue.
+I have been searching and trying some possible solutions but none of them gave me good result:
 
-- Went to Internet Recovery by pressing <kbd>Cmd ⌘</kbd> <kbd>Option ⌥</kbd> <kbd>R</kbd>. Still doesn't work.
+* I used an USB bootable installer for Mojave to boot, which is the same system of the current disk. No luck.
 
-- Used [command line](https://www.amsys.co.uk/disk-utility-tip-fix-couldnt-unmount-disk-errors/) to force unmount disk within above two modes.
+* I also went to Internet Recovery Mode by pressing <kbd>Cmd ⌘</kbd> <kbd>Option ⌥</kbd> <kbd>R</kbd>. Still doesn't work.
 
-  Open terminal in recovery mode, enter
-  ```bash
+* I used [command line](https://www.amsys.co.uk/disk-utility-tip-fix-couldnt-unmount-disk-errors/) to force unmount disk within above two modes. With this method I can at least look deeper into the issue.
+
+  Open Terminal in recovery mode, enter
+  
+```bash
   diskutil list
   ```
-  It gonna show up all disks. Find the disk needs to be unmounted, get the identifier and run
-  ```bash
+
+  It will show up all disks. I found the disk that needs to be unmounted, got the identifier and ran:
+  
+```bash
   diskutil unmountDisk /dev/disk0
   # disk0 is my disk's identifier
   ```
 
-  Here is where things went wrong (again). I got the error:
+  Here is where things went wrong. I got the error:
   > Forced unmount of disk0 failed: at least one volume could not be unmounted
 
-- After the command line, I tried to unmount each one of the disks in the above list (there's 23 disks in total) and see if I can unmount disk0 after that. Nope. No luck.
+* After running the command line, I tried to unmount each one of the disks in the above list (there's 23 disks in total) and see if I could unmount disk0 after that. Nope.
 
-- Tried to put another command line `mount` to help identify what disks were actually mounted. Didn't find the issue. It doesn't look like disk0 has been using, as the system is booting from external drive.
+* I tried to put another command line `mount` to help identify what disks were actually mounted but I couldn't find where went wrong. It doesn't look like disk0 has been using, as the system is booting from external drive.
 
-## Now What?
+## Solutions
 
-OK. At this point, I'm quite desperate. Then I found [this post](https://discussions.apple.com/thread/250763252?page=2) where OP mentioned their problem has been resolved by using a High Sierra USB installer. Alright, I will try as a last resort.
+OK. At this point, I'm quite desperate. Then I found [this post](https://discussions.apple.com/thread/250763252?page=2) where OP mentioned their problem has been resolved by using a High Sierra USB installer (I'm using Mojave). Alright, I decided to try it as a last resort.
 
-And then....Eureka!
+And then.... Eureka!
 
-It doesn't even need to use command line. I just simply went to Disk Utility and click Erase. It's that easy.
+It didn't even need to use command line. I just simply went to Disk Utility and click Erase. It's that easy.
 
-I'm still not sure why. It must be something related to Mojave itself. Anyways, I'm happy to see it resolved eventually after a whole night's effort.
+I'm still not sure why. It must be something related to Mojave itself. Anyway, I'm happy to see my free iMac is finally working after a whole night's effort.
