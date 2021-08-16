@@ -1,6 +1,6 @@
 ---
 title: Customize Website Themes in Jeykll
-tags: jekyll website
+tags: jekyll website-building
 ---
 
 I'm a crazy theme person. After spending sometime searching around, I ended up choosing [Lanyon](https://github.com/poole/lanyon) as my theme.

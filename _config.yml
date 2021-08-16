@@ -41,7 +41,7 @@ defaults:
     type: posts      # previously `post` in
   values:
     layout: post
-    # toc: true
+    toc: true
 
 
 kramdown:

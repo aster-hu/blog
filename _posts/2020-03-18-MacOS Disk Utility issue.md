@@ -1,6 +1,6 @@
 ---
 title: "I Found an iMac in the Garbage Room"
-tags: macos hardware
+tags: macos
 ---
 
 ## A Mac in Garbage Suite?

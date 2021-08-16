@@ -29,7 +29,7 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
-_drafts/
+_drafts
 
 # Komodo
 *.komodoproject
