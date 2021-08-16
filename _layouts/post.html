@@ -10,17 +10,16 @@ layout: default
   Tag{% if page.tags.size > 1 %}s{% endif %}:
   {{ page.tags | sort | join: ", " }}
   {% endif %} -->
-  <span>
+  </span>
+  <span class="post-tag">
     {% if page.tags.size > 0 %}
+    Tag{% if page.tags.size > 1 %}s{% endif %}:
       {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          [<a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>]
       {% endfor %}
     {% endif %}
   </span>
-
-  </span>
-
   {{ content }}
 </div>
 
