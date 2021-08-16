@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+
 <div class="post">
-<h1>Tag: {{ page.tag }}</h1>
+<h1>Tag: <code class="highligher-rouge">{{ page.tag }}</code></h1>
+<br>
 <ul>
 {% for post in site.posts %}
     {% if post.tags contains page.tag %}
@@ -12,4 +14,5 @@ layout: default
 {% endfor %}
 </ul>
 </div>
-<hr>
+
+{% include tagscloud.html %}
