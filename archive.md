@@ -16,4 +16,5 @@ spacing: double
 
 {% endfor %}
 
+{% include tagscloud.html %}
 </body>
