@@ -16,5 +16,5 @@ spacing: double
 
 {% endfor %}
 
-{% include tagscloud.html %}
+{% include collecttags.html %}
 </body>
