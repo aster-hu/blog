@@ -1,18 +1,27 @@
 ---
-title: Colophon
+title: Aloha
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
-comments: false
+excerpt: Hello peeps, I'm an analyst working at a bank in Toronto, Canada. This blog for documentation about my programming journey, running on jekyll, hosting on Github Pages and using theme [klise](https://github.com/piharpi/jekyll-klise).
+comments: true
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+I'm a senior analyst working at TD Bank in Toronto, Canada <i class="fab fa-canadian-maple-leaf"></i>. My job focus on data management; I write code for my work, but mostly for fun. 
 
-If you have a question about him or else, just send a letter to him.
+As you can see, I do not have a Computer Science degree, but I believe anyone who has the passion to learn can thrive in programming.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+This is my personal blog and I will be sharing my programming thoughts and experience as a non-developer. From my point of view, blogging is a systematic way of contemplation, and I need this reason to push myself to build the learning into my routine, otherwise I would get lost.
+
+My other hobbies:
+
+- Calligraphy
+- Watercolour sketching
+- Video games
+- TRPG (D&D and CoC)
+
+Time management and productivity is a timeless topic.
 
 **may u needs ✨**
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- <i class="far fa-envelope-open"></i>&nbsp;[{{ site.author.email }}](mailto:{{ site.author.email }})
+- <i class="fab fa-github"></i>&nbsp;[@hasturhu](https://github.com/hasturhu)

@@ -11,7 +11,10 @@ Obviously, we need a Github account and project to get start with.
 
 Assuming the project is not in local yet, click `Github` on the right corner and choose `Clone an existing Github repository`.
 
+<figure>
 <img src = "{{site.url}}/assets/git1.png" width = "65%" height = "65%" />
+<!-- <figcaption>Fig 1. bagian-bagin dari shell prompt.</figcaption> -->
+</figure>
 
 There'll be a popup window.
 
