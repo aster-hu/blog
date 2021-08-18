@@ -73,10 +73,6 @@ layout: compress
           {% endif %}
         </div>
       </article>
-    
-      {% if page.comments %}
-        {% include comments.html %}
-      {% endif %}
 
     </main>
 
@@ -87,7 +83,21 @@ layout: compress
       {% include navigation.html %}
     {% endif %}
 
+    <br><br><br><br>
+
+    {% if page.comments %}
+    <div id="disqus_thread"></div>
+      <script src="https://hasturhu.disqus.com/embed.js">
+      crossorigin="anonymous"
+      </script>
+      <noscript>
+        Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+      </noscript>
+    {% endif %}
+
+
     {% include footer.html %}
+
   </div>
 </body>
 </html>
