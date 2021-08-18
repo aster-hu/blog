@@ -1,22 +1,18 @@
 ---
-# layout: aboutpage
+title: Colophon
+permalink: /about/
 layout: page
-title: About
+excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+comments: false
 ---
 
-<br/>
+He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
 
-**Aloha!**
+If you have a question about him or else, just send a letter to him.
 
-I'm a senior analyst working at TD Bank in Toronto, Ontario. My job focus on data management; I write code for my work, but mostly for fun. As you can see, I do not have a Computer Science degree, but I believe anyone who has the passion to learn can thrive in programming.
+You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
 
-This is my personal blog and I will be sharing my programming thoughts and experience as a non-developer. From my point of view, blogging is a systematic way of contemplation, and I need this reason to push myself to build the learning into my routine, otherwise I would get lost.
+**may u needs ✨**
 
-Apart from that, I also have a number of other hobbies that need plenty of time to devote, including calligraphy, watercolour sketching, gaming and TRPG. Time management and productivity is a timeless topic for me.
-
-<br><br><br>
-<br><br><br>
-<hr>
-
-You can contact me at [asterhu17@gmail.com](mailto:asterhu17@gmail.com).
-<br>
+- {{ site.author.email }}
+- github.com/{{ site.author.github }}

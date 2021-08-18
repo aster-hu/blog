@@ -1,58 +1,91 @@
-# Setup
-title:               Asteroid Space
-tagline:             '&nbsp;&nbsp; learning · programming · sketching · random thoughts'
-description:         'Thoughts and experience from the perspective of a non-developer'
-url:                 "https://hasturhu.github.io"   #base hostname & protocol
-baseurl:             "" #subpath of website
-paginate:            10
-permalink:           /:title
+# Site settings
+title: Asteroid Space # site title
+description: >- # site description
+  learning · programming · sketching · random thoughts
+lang: en-US # default lang
+timezone: Americas/Toronto # set your timezone
+# image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+# repo: https://github.com/hasturhu # site repo [optional]
+mode: dark # default theme "dark" | "light"
 
-# About/contact
+# Profile settings
 author:
-  name:              Aster Hu
-#  url:               https://twitter.com/mdo
-  email:             asterhu17@gmail.com
+  name: Aster Hu # author name
+  bio: >- # tell to the world
+    learning · programming · sketching · random thoughts. 
+    Thoughts and experience from the perspective of a non-developer. Meet me at <a href="https://github.com/hasturhu" target="_blank" rel="noopener">@github</a>.
+  # username: username # general username
+  github: hasturhu # github username
+  # twitter: twitter_username # twitter username
+  # facebook: facebook_username # facebook username
+  email: asterhu17@gmail.com # email adress
+  avatar: /assets/img/avatar.jpg # change with your own avatar
 
-# Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-archives
-  - jekyll-toc
-  - jemoji
+# URL settings
+url: "https://hasturhu.github.io" #
+baseurl:
+permalink: /:title/
+google_analytics: UA-175470713-1 # leave it blank if not wish
+fb_appid:
 
-# Custom vars
-version:             1.1.0
-google_analytics_id: UA-175470713-1
-
-#toc settings
-# toc:
-#   min_level: 1
-#   max_level: 3
-#   no_toc_section_class: no_toc_section
-#   list_class: section-nav
-#   sublist_class: ''
-#   item_class: toc-entry
-#   item_prefix: toc-
-
-#Front matters settings
-defaults:
-- scope:
-    path: ''         # an empty string here means all files in the project
-    type: posts      # previously `post` in
-  values:
-    layout: post
-    toc: true
-
-
-kramdown:
-  input: GFM
-  # syntax_highlighter: rouge
-
-# markdown: kramdown
-markdown: kramdown
-# highlighter: rouge
-
+# Collection setting
 collections:
-  tags:
+  posts:
     output: true
-    permalink: tags/:path/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: true
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 20
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
