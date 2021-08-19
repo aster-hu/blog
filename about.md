@@ -6,7 +6,7 @@ excerpt: Hello peeps, I'm an analyst working at a bank in Toronto, Canada. This 
 comments: true
 ---
 
-I'm a senior analyst working at TD Bank in Toronto, Canada. My job focus on data management; I write code for my work, but mostly for fun. 
+I'm a senior analyst working at TD Bank in Toronto, Canada. My job focuses on data management; I write code for my work, but mostly for fun.
 
 As you can see, I do not have a Computer Science degree, but I believe anyone who has the passion to learn can thrive in programming.
 

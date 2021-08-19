@@ -11,9 +11,9 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: Aster Hu # author name
-  bio: >- # tell to the world
-    learning · programming · sketching · random thoughts. 
-    Thoughts and experience from the perspective of a non-developer.
+  bio: > # tell to the world
+    learning · programming · sketching · random thoughts. <br />
+    From the perspective of a non-developer.
   # username: username # general username
   github: hasturhu # github username
   # twitter: twitter_username # twitter username
