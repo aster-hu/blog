@@ -6,7 +6,7 @@
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  border-bottom: 1px solid $light;
+  border-bottom: 1px solid $smoke;
   padding: $spacing-full - 15px $spacing-full;
   @extend %clearfix;
 }
@@ -231,7 +231,7 @@
   @extend %clearfix;
 
   &:not(:first-child) {
-    border-top: 1px solid $light;
+    border-top: 1px solid $smoke;
   }
 
   .post-item-date {

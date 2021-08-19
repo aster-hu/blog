@@ -8,7 +8,8 @@
 
 // Post title
 .header {
-  margin-top: 7.8em;
+  // margin-top: 7.8em;
+  margin-top: 3em;
   margin-bottom: 3em;
 
   .tags {
@@ -63,7 +64,7 @@
   }
 
   span[itemprop="author"] {
-    border-bottom: 1px dotted $light;
+    border-bottom: 1px dotted $smoke;
   }
 }
 
@@ -195,7 +196,7 @@
   display: flex;
   position: relative;
   margin-top: 5em;
-  border-top: 1px solid $light;
+  border-top: 1px solid $smoke; // fix comment section color
   line-height: 1.4;
 
   .post-nav-item {
