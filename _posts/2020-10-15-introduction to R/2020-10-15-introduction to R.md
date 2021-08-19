@@ -53,7 +53,8 @@ df <- read.xlsx('sample.xlsx',          # Name of the workbook
 
 Let's take a glimpse on the imported dataframe.
 
-![](/assets/sale.head.png)
+<!-- ![](/assets/sale.head.png) -->
+![](sale.head.png)
 
 ## Filter Columns
 

@@ -6,9 +6,7 @@ tags: jekyll website-building
 ## Before Setup
 
 1. Create a Github account
-
 2. Create a new Github repository
-
 3. Install [Git](https://git-scm.com/downloads) on local
 
 For MacOS, the easiest way is to install via homebrew

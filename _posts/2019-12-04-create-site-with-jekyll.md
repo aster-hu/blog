@@ -24,18 +24,14 @@ bundle update
 Giraffe Academy's [video series](https://youtu.be/pxua_1vyFck) is really helpful and he would also briefly explained how it works from structure layer.
 
 1. Create site server:
-
 ```ruby
 jekyll new Sitename
 ```
 2. Direct to the site directory (*sitename* is also the name of the root folder).
-
 ```shell
 cd sitename/
 ```
-
 3. Run server:
-
 ```ruby
 bundle exec jekyll serve
 ```
