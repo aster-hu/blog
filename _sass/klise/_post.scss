@@ -71,7 +71,11 @@
 // Post content
 .page-content {
   padding-top: 8px;
-  text-align: justify;
+  text-align: left;
+  -webkit-hyphens: auto;  // 
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 
   iframe {
     text-align: center;
