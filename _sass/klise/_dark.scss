@@ -60,6 +60,11 @@ body[data-theme="dark"] {
     }
   }
 
+  // code block
+  pre.highlight, pre {
+    border: 1px solid $dark-smoke;
+  }
+
   // kbd tag
   kbd {
     border-color: $dark-light;
@@ -214,8 +219,9 @@ body[data-theme="dark"] {
       color: $dark-white;
     }
     .footer_copyright {
-      color: $dark-gray;
-      opacity: 1;
+      color: $dark-white;
+      // opacity: 1
+      color: rgba(255, 255, 255, 0.7);
     }
   }
 
@@ -256,7 +262,7 @@ body[data-theme="dark"] {
 
   */
   .highlight .hll { background-color: #515151 }
-  .highlight  { background: #2d2d2d; color: #f2f0ec }
+  .highlight  { background: #323945; color: #f2f0ec }
   .highlight .c { color: #747369 } /* Comment */
   .highlight .err { color: #f2777a } /* Error */
   .highlight .k { color: #cc99cc } /* Keyword */

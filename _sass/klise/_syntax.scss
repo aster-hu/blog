@@ -9,7 +9,7 @@ code {
   word-break: normal;
   word-wrap: normal;
   // font-size: inherit;
-  font-size: 90%;
+  font-size: 95%;
 
   &.highlighter-rouge {
     font-size: 90%;
@@ -27,16 +27,19 @@ pre.highlight, pre {
   // margin: 0 -27px;
   @include media-query($on-mobile) {
     // margin: 0 calc(51% - 51vw); // change code margin on mobile
-    margin: 0 calc(54% - 51vw); // change code margin on mobile
+    margin: 0 calc(53% - 51vw); // change code margin on mobile
     padding-left: 10px;
   }
-  border: 1px solid rgba(128,128,128,0.1);
+  // border: 1px solid rgba(128,128,128,0.1);
+  border: 1px solid $smoke;
+  margin: -0.3em;
   // background-color: #1a1b21;
   // background-color: #2d2d2d; // dark brown
-  border-radius: 2px;
-  padding: 10px;
+  border-radius: 0.5em; // change to round border
+  padding: 20px;
   display: block;
   overflow-x: auto;
+
 
   > code {
     width: 100%;
@@ -201,7 +204,7 @@ pre.highlight, pre {
 
 // jekyll-pygments-themes/manni.css
 
-.highlight .hll { background-color: #ffffcc }
+.highlight .hll { background-color: #f1efef }
 .highlight  { background: #f1efef; }
 .highlight .c { color: #0099FF; font-style: italic } /* Comment */
 .highlight .err { color: #AA0000; background-color: #FFAAAA } /* Error */
