@@ -203,14 +203,14 @@
     background-color: $black;
     -ms-user-select: none;
     -webkit-user-select: none;
-    -webkit-animation: 0.5s ease-in forwards fadein;
-    animation: 0.5s ease-in forwards fadein;
+    // -webkit-animation: 5s ease-in forwards fadein;
+    // animation: 0.5s ease-in forwards fadein;
     opacity: 1;
     overflow: hidden;
   }
 
   .author-avatar {
-    transition: 0.6s;
+    transition: 0.2s;
     &:hover {
       -ms-transform: scale(1.2);
       -moz-transform: scale(1.2);
