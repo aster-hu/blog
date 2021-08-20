@@ -6,11 +6,11 @@ excerpt: Hello peeps, I'm an analyst working at a bank in Toronto, Canada. This 
 comments: true
 ---
 
-I'm a senior analyst working at TD Bank in Toronto, Canada. My job focuses on data management; I write code for my work, but mostly for fun.
+I'm a senior analyst working at TD Bank in Toronto, Canada. My job focuses on data oversight and lifecycle management; I write code for my work, but mostly just for fun.
 
-As you can see, I do not have a Computer Science degree, but I believe anyone who has the passion to learn can thrive in programming.
+Not a hardcore developer per se as I don't have a Computer Science background, but I believe anyone who has the passion to learn can thrive in programming.
 
-This is my personal blog and I will be sharing my programming thoughts and experience as a non-developer. From my point of view, blogging is a systematic way of contemplation, and I need this reason to push myself to build the learning into my routine, otherwise I would get lost.
+From my point of view, blogging is a systematic way of contemplation, and I need this reason to push myself to build the learning into my routine, otherwise I would get lost.
 
 My other hobbies:
 
