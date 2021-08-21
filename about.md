@@ -3,7 +3,6 @@ title: Aloha
 permalink: /about/
 layout: page
 excerpt: Hello peeps, I'm an analyst working at a bank in Toronto, Canada. This blog for documentation about my programming journey, running on jekyll, hosting on Github Pages and using theme [klise](https://github.com/piharpi/jekyll-klise).
-comments: true
 ---
 
 I'm a senior analyst working at TD Bank in Toronto, Canada. My job focuses on data oversight and lifecycle management; I write code for my work, but mostly just for fun.
@@ -14,14 +13,14 @@ From my point of view, blogging is a systematic way of contemplation, and I need
 
 My other hobbies:
 
-- Calligraphy
 - Watercolour sketching
+- Calligraphy (Fountain pens)
 - Video games
 - TRPG (D&D and CoC)
 
 Time management and productivity is a timeless topic.
 
-**may u needs ✨**
-
-- <i class="far fa-envelope-open"></i>&nbsp;[{{ site.author.email }}](mailto:{{ site.author.email }})
-- <i class="fab fa-github"></i>&nbsp;[@hasturhu](https://github.com/hasturhu)
+**To reach me ✨** &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/asterhu/"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/hasturhu"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:{{ site.author.email }}"><i class="far fa-envelope-open"></i></a>
