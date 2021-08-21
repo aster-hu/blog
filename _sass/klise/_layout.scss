@@ -263,6 +263,18 @@
       }
     }
   }
+
+  .post-item-tags {
+    height: auto;
+    margin-left: auto; 
+    margin-right: 0;
+    .tag-item {
+      padding: 1px 3px;
+      border-radius: 2px;
+      border: 2px solid rgba(128, 128, 128, 0.1);
+      background-color: rgba(128, 128, 128, 0.1);
+    }
+  }
 }
 
 // Footer
@@ -378,4 +390,5 @@
     border: 1px solid rgba(128, 128, 128, 0.1);
     background-color: rgba(128, 128, 128, 0.1);
   }
+
 }
