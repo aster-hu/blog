@@ -273,6 +273,11 @@
     margin-left: auto; 
     margin-right: 0;
     .tag-item {
+      color: $text-link-blue;
+      &:hover,
+      &focus {
+        color: $text-link-blue-active;
+      }
       padding: 1px 3px;
       border-radius: 2px;
       border: 2px solid rgba(128, 128, 128, 0.1);

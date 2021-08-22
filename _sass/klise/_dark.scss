@@ -177,7 +177,20 @@ body[data-theme="dark"] {
         }
       }
     }
+    .post-item-tags {
+      .tag-item {
+        background-color: $dark-light;
+        color: $dark-text-link-blue;
+        &:hover,
+        &focus {
+          color: $dark-text-link-blue-active;
+        }
+      
+      }
+    }
+
   }
+
 
   // Post Navigation
   .post-nav {
