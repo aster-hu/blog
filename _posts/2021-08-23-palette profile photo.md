@@ -1,6 +1,6 @@
 ---
 title: "My New Profile Photo"
-tags: random, watercolour
+tags: watercolour
 ---
 
 <hr>
