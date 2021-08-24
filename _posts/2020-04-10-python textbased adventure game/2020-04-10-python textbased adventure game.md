@@ -5,7 +5,7 @@ tags: python
 
 This idea immediately brought to my attention because I'm a fan of [Zork](https://en.m.wikipedia.org/wiki/Zork). For those of you don't know, Zork it's one of the earliest interactive fiction computer games, and it's text-based.
 
-This is only the beginning of the game. The source code is in [here](https://raw.githubusercontent.com/hasturhu/hasturhu.github.io/master/assets/game01.py).
+This is only the beginning of the game. The source code is in [here](https://raw.githubusercontent.com/hasturhu/hasturhu.github.io/master/_posts/2020-04-10-python%20textbased%20adventure%20game/game01.py).
 
 ## Input/Output
 I'm using Python3 so no need to struggle with `input()` and `raw_input()` as the latter doesn't exist in Python3 anymore.

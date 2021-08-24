@@ -6,7 +6,7 @@ tags: latex random
 ## Outcome
 
 My final resume looks like this:
-![Imgur](/assets/latexresume2.png)
+![Imgur](latexresume2.png)
 <br>
 ## Why LaTex Resume?
 
@@ -40,7 +40,7 @@ brew cask install mactex
 There're lots of resume template on [Overleaf](https://www.overleaf.com/). The template I'm using is based on [AltaCV](https://www.overleaf.com/latex/templates/altacv-template/trgqjpwnmtgv). Open as Template and then download the Source. You can edit and compile directly on Overleaf as well, but I prefer a local copy.
 
 The template is good but not exactly what I'm looking for, so I will do some customization.
-<img src="{{site.baseurl}}/assets/latexresume1.png" width="600" height="800" />
+<img src="latexresume1.png" width="600" height="800" />
 
 ## Customization
 
