@@ -20,7 +20,7 @@ tags: watercolour
 
 My watercolour paints are already squeezed into half pans and ready to be placed. I partially filled them based on Jane Blundell's advice, who wrote [this awesome post](https://janeblundellart.blogspot.com/2013/05/the-advantages-of-only-partially.html)<sup id="jane">[[1]](#user-ref)</sup> to explain the advantages of it.
 
-As for the tin, any metal tin can do the job, as long as the size works.
+As for the tin, any metal tin can do the job, as long as the size works for you.
 
 The blue tac can be replaced by double side tape. The glue doesn't need to be very strong as the tin has the cover to prevent pans falling out.
 
@@ -28,7 +28,7 @@ The blue tac can be replaced by double side tape. The glue doesn't need to be ve
 
 #### 1. Put something as filling
 
-The goal here is to raise the level a bit so that the pan can be parallel to the side of the tin once put in. This will also protect the brush, because the brush will stay as a less vertical angle when dipping into the pan.
+The goal here is to raise the bottom level a bit so that the pan can be parallel to the side of the tin once put in. It will protect the brush, because the brush will stay as a less vertical angle when dipping into the case. It will also be easier to get the paint, especially from the pan close to the edge.
 
 It's not necessary though - you could jump to [Step 4](#4-plan-the-position-of-watercolour-pans) and have them sit right onto the bottom of the case.
 
