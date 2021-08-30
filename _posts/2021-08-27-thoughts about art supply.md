@@ -20,3 +20,5 @@ Well, in a sense it's true, and it's okay to spend money on the things you like.
 It's such a waste and I feel sorry for the paints.  
 
 Interestingly, I found this type of issue is way more common in China compared to Western community. It's extremely rare to see a Chinese watercolourist to recommend *less than 24-colour palettes* to beginners; while in Western most artists believe "less is more" and suggest beginners to stick with *12 colours at most*. They usually only use that many by themselves too –– I have never seen a Western watercolourist has more than 22 colours in their everyday palette. I am still thinking about the reason behind it.  
+
+It's hard to resist, I know. But to me, part of life is to constantly battle with desire and hormones, to reach a balance between inner peace and outer needs.  
