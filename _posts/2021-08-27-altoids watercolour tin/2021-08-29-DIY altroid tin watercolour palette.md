@@ -40,13 +40,15 @@ Both of them need to be cut into the size of tin. Simply put the tin on top of t
 
 #### 3. Stick paper and plastic together
 
-I used blue tac to stick them together, but any glue will do. Put this piece to the case.
+I used blue tac to stick them together, but any glue will do. Put this piece to the top of the filling.
 
 #### 4. Plan the position of watercolour pans
 
 ![img](altoidstin.jpg)
 
-No matter how many pans you would like to put, it's better to plan ahead. I put 10 half pans into two rows, and there're still space available. For a regular size (50g) Altoids tin, it can accommodate maximum of 15 watercolour half pans in three rows.
+No matter how many pans you want to put in, it's better to plan ahead.
+
+I put 10 half pans into two rows, and there're still space available. For a regular size (50g) Altoids tin, it can accommodate maximum of 15 watercolour half pans in three rows.
 
 #### 5. Stick the pan into the case
 
