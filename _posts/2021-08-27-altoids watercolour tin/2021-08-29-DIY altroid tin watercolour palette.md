@@ -1,5 +1,5 @@
 ---
-title: "DIY a Watercolour Palette Using Altroids Mint Tin"
+title: "DIY a Watercolour Palette Using Altoids Mint Tin"
 tags: watercolour
 ---
 
@@ -10,7 +10,7 @@ tags: watercolour
 ![img](materials.jpg)
 
 - [ ] Watercolour paints (obviously)
-- [ ] Altroids mint tin
+- [ ] Altoids mint tin
 - [ ] Blue tac
 - [ ] A piece of paper and plastic board
 - [ ] Scissor and pencil
@@ -24,7 +24,7 @@ As for the tin, any metal tin can do the job, as long as the size works for you.
 
 The blue tac can be replaced by double side tape. The glue doesn't need to be very strong as the tin has the cover to prevent pans falling out.
 
-## Altroids Watercolour Tin Recipe
+## Altoids Watercolour Tin Recipe
 
 #### 1. Put something as filling
 
