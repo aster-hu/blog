@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Aster Hu # author name
   bio: > # tell to the world
-    learning · programming · sketching · random thoughts
+    <a href="/tags">learning · programming · sketching · random thoughts</a>
   # username: username # general username
   github: hasturhu # github username
   # twitter: twitter_username # twitter username
