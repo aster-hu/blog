@@ -1,7 +1,7 @@
 ---
 title: "As She Dances - Final Fantasy X 20th Anniversary"
 date: 2021-07-19
-tags: [watercolour, sketching]
+tags: [watercolour, sketch]
 image: yuna.jpg
 ---
 
