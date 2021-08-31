@@ -62,7 +62,7 @@ If you have some white enamel paint, you can spray it inside of the tin so that 
 
 I love it. It's portable, has a retro look, and most importantly - it's handmade by myself!
 
-The only downside is that the metal is flimsy so I don't expect it to to last very long –– but I'm not going to worry about that for now since the setup is so easy.
+The only downside is that the metal is flimsy so I don't expect it to last very long; but I'm not going to worry about that for now since the setup is so easy.
 
 ##### Reference:
 
