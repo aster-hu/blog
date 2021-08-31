@@ -3,7 +3,7 @@ title: "DIY a Watercolour Palette Using Altoids Mint Tin"
 tags: watercolour
 ---
 
-> This is a recipe to make your own watercolour palette using a Altoids mint tin —— or any other tin you have.
+> This is a recipe to make your own watercolour palette using an Altoids mint tin —— or any other tin you have.
 
 ## Things You Need
 
@@ -22,13 +22,13 @@ My watercolour paints are already squeezed into half pans and ready to be placed
 
 As for the tin, any metal tin can do the job, as long as the size works for you.
 
-The blue tac can be replaced by double side tape. The glue doesn't need to be very strong as the tin has the cover to prevent pans falling out.
+The blue tac can be replaced by double side tape. The glue doesn't need to be very strong as the tin has a cover to prevent pans from falling out.
 
 ## Altoids Watercolour Tin Recipe
 
 #### 1. Put something as filling
 
-The goal here is to raise the bottom level a bit so that the pan can be parallel to the side of the tin once put in. It will protect the brush, because the brush will stay as a less vertical angle when dipping into the case. It will also be easier to get the paint, especially from the pan close to the edge.
+The goal here is to raise the bottom level a bit so that the pan can be parallel to the side of the tin once put in. It will protect the brush because the brush will stay at a less vertical angle when dipping into the case. It will also be easier to get the paint, especially from the pan close to the edge.
 
 It's not necessary though - you could jump to [Step 4](#4-plan-the-position-of-watercolour-pans) and have them sit right onto the bottom of the case.
 
@@ -48,21 +48,21 @@ I used blue tac to stick them together, but any glue will do. Put this piece to 
 
 No matter how many pans you want to put in, it's better to plan ahead.
 
-I put 10 half pans into two rows, and there're still space available. For a regular size (50g) Altoids tin, it can accommodate maximum of 15 watercolour half pans in three rows.
+I put 10 half pans into two rows, and there's still space available. For a regular size (50g) Altoids tin, it can accommodate a maximum of 15 watercolour half pans in three rows.
 
 #### 5. Stick the pan into the case
 
-Grab a tiny amount of blue tac to stick the pan into the planned position. Push it few times firmly with thumb to ensure it has been placed properly.
+Grab a tiny amount of blue tac to stick the pan into the planned position. Push it few times firmly with the thumb to ensure it has been placed properly.
 
-![img](altoidstincover.jpg)
+If you have some white enamel paint, you can spray it inside of the tin so that you have a good mixing area.
 
-If you have some white enamel paint, you can spray them inside of the tin so that you have a good mixing area.
+![img](sketch.jpg)
 
-**That's it.** It's really simple, and the size make it super handy for outdoor sketch.
+**That's it.** It's really simple, and the size makes it super handy for outdoor sketching.
 
 I love it. It's portable, has a retro look, and most importantly - it's handmade by myself!
 
-The only downside is that the metal is flimsy so I don't expect them to last very long.
+The only downside is that the metal is flimsy so I don't expect it to to last very long –– but I'm not going to worry about that for now since the setup is so easy.
 
 ##### Reference:
 
