@@ -1,11 +1,11 @@
 # Site settings
-title: Asteroid Space # site title
+title: "Aster Hu's Blog | Asteroid" # site title
 description: >- # site description
-  learning · programming · sketching · random thoughts
+  "Aster Hu's blog"
 lang: en-US # default lang
-timezone: Americas/Toronto # set your timezone
+timezone: America/Toronto # set your timezone
 # image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-# repo: https://github.com/hasturhu # site repo [optional]
+repo: https://github.com/aster-hu/blog # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
@@ -14,10 +14,10 @@ author:
   bio: > # tell to the world
     <a href="/tags">learning · programming · sketching · random thoughts</a>
   # username: username # general username
-  github: hasturhu # github username
+  github: aster-hu # github username
   # twitter: twitter_username # twitter username
   # facebook: facebook_username # facebook username
-  email: asterhu17@gmail.com # email adress
+  email: asterhu17@gmail.com # email address
   avatar: /assets/img/palette.jpg # change with your own avatar
 
 # URL settings
