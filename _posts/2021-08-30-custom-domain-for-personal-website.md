@@ -45,4 +45,4 @@ Like I mentioned above, some TLDs domains might be incredibly cheap, e.g. `.xyz`
 
 ## Next Step
 
-After buying the domain, the next step is to setup the custom domain on web hosting provider. I wrote another article about how to setting up namecheap domain via Netlify.
+After buying the domain, the next step is to setup the custom domain on web hosting provider. I wrote another article about [how to setting up a Namecheap domain on Netlify](/how-to-setup-namecheap-domain-on-netlify).
