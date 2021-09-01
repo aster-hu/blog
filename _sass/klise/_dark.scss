@@ -38,7 +38,7 @@ body[data-theme="dark"] {
       }
     }
 
-    h3 {
+    h1 {
       border-color: $dark-light;
     }
     h1,
@@ -87,9 +87,9 @@ body[data-theme="dark"] {
       }
     }
 
-    span[itemprop="author"] {
-      border-color: $dark-light;
-    }
+    // span[itemprop="author"] {
+    //   border-color: $dark-light;
+    // }
   }
 
   // Link
