@@ -136,13 +136,14 @@ figcaption {
 
 // List
 ul {
-  list-style: none;
+  // list-style: none;
+  list-style-type: disc; // change bullet
   li {
     display: list-item;
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\FE63";
+    // content: "\FE63";
     display: inline-block;
     top: -1px;
     width: 1.2em;
@@ -159,7 +160,8 @@ ol {
     position: relative;
     counter-increment: li;
     &::before {
-      content: counter(li);
+      // content: counter(li);
+      content: counters(li, "."); // add dot to ordered list bullet
       display: inline-block;
       width: 1em;
       margin-right: 0.5em;
@@ -371,3 +373,15 @@ mark,
 img + em { 	
   display: block; text-align: center; 
 } //image captions
+
+// toc
+.section-nav {
+  // background-color: $white;
+  margin: 5px 0;
+  padding: 10px 30px;
+  border: 1px solid $gray;
+  border-radius: 3px;
+  position: sticky;
+	top: 2rem;
+	align-self: start;
+  }
