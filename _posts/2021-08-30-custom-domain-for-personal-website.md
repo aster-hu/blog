@@ -14,23 +14,23 @@ Some places provide free domains, but I don’t recommend them. Remember — fre
 
 **Usually, a domain name costs around $10 - $20 CAD**. Domains with high commercial value could be priced at $50+ or even more. But for personal use, it usually won’t get into that.
 
-Note that some registers might offer a very cheap price in the first year and charge at a much higher price when renewal. So do read the renewal policy before the purchase.
+Note that some registrars might offer a very cheap price in the first year and charge at a much higher price when renewal. So do read the renewal policy before the purchase.
 
-Even within the same register, certain domains will be noticeably cheaper. I’ll talk more in [Choose A Domain](#choose-a-domain)
+Even within the same registrar, certain domains will be noticeably cheaper. I’ll talk more in [Choose A Domain](#choose-a-domain)
 
 ## Where to Buy
 
-There are plenty of domain registers available on the Internet. Here are the ones I found most popular in the web hosting community:
+There are plenty of domain registrars available on the Internet. Here are the ones I found most popular in the web hosting community:
 
 - [Namecheap](http://namecheap.com/)
 - [Google Domains](https://domains.google)
 - [Namesilo](https://www.namesilo.com/)
 
-GoDaddy is not on the list; they have way too many controversies. Plus, their renewal policy and price are ridiculous so I will stay away from them.
+GoDaddy is not on the list because there're many controversies around them and their renewal price is ridiculously high.
 
 I chose [Namecheap](http://namecheap.com/) because:
 1. It's cheap. They didn't lie
-2. It's popular, which make it easy to find solutions if anything goes wrong
+2. It's popular, which makes it easy to find solutions if anything goes wrong
 
 ## Choose a Domain
 
