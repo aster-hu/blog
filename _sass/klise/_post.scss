@@ -172,6 +172,8 @@
 
   h1 {
     @include relative-font-size(1.5);
+    border-bottom: 1px solid $light;
+    padding-bottom: 4px;
   }
 
   h2 {
@@ -179,9 +181,7 @@
   }
 
   h3 {
-    @include relative-font-size(1.25);
-    border-bottom: 1px solid $light;
-    padding-bottom: 4px;
+    @include relative-font-size(1.3);
   }
 
   h4 {
