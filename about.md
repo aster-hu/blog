@@ -24,3 +24,9 @@ Time management and productivity is a timeless topic.
 <a href="https://www.linkedin.com/in/asterhu/"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/hasturhu"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:{{ site.author.email }}"><i class="far fa-envelope-open"></i></a>
+
+<br><br><br>
+
+##### Credit
+
+The website icon is made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/).
