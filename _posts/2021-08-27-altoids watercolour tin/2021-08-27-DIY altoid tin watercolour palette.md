@@ -18,7 +18,7 @@ tags: [watercolour, sketch]
 
 <!-- ![img](halfpan.jpg) -->
 
-My watercolour paints are already squeezed into half pans and ready to be placed. I partially filled them based on Jane Blundell's advice, who wrote [this awesome post](https://janeblundellart.blogspot.com/2013/05/the-advantages-of-only-partially.html)<sup id="jane">[[1]](#user-ref)</sup> to explain the advantages of it.
+My watercolour paints are already squeezed into half pans and ready to be placed. I partially filled them based on Jane Blundell's advice, who wrote [this awesome post](https://janeblundellart.blogspot.com/2013/05/the-advantages-of-only-partially.html)<sup id="jane">[[1]](#reference)</sup> to explain the advantages of it.
 
 As for the tin, any metal tin can do the job, as long as the size works for you.
 
