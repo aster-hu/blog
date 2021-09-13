@@ -8,7 +8,7 @@ toc: true
 
 ## The brand
 
-White Nights is a brand from Russian manufacturer [Nevskaya Palitra](https://www.nevapalette.com). This 12 watercolour set is very popular because **it's really cheap** as artist grade paint. Reviews differ a lot for some reason so I decided to try it myself, and I found both pros & cons are quite obvious.
+White Nights is a brand from Russian manufacturer [Nevskaya Palitra](https://www.nevapalette.com). This 12 watercolour set is very popular because **it's really cheap** as artist grade paint. Reviews differ a lot for some reasons, so I decided to try it myself, and I found both pros & cons are quite obvious.
 
 I also noticed few things that are not mentioned in other reviews which I will share it here.
 
@@ -45,10 +45,10 @@ The 12 pans are divided by three pieces of plastic, but there are gaps between t
 ![palette](palette.jpg)
 *gaps around pans — I demonstrated it by inserting a piece of paper*
 
-Another downside is the height of pans is lower than the plastic and the box, making it difficult to pick up paint, especially when the pan is less full, because the brush can only be in a steep angle.
+Another downside is the height of pans is lower than the plastic and the box, making it difficult to pick up paint when the pan is less full, because the brush can only stay in a steep angle.
 
 ![palettegap](palettegap.jpg)
-*pans' height is lower than the divider*
+*the height of pans is lower than the divider*
 
 ## The Colours
 
@@ -56,13 +56,13 @@ Another downside is the height of pans is lower than the plastic and the box, ma
 
 The most exciting part: colours!
 
-As you can see in previous pictures, the paints look very, uhh, rough. The surface is not even and there are some holes like bubbles.
+As you can see in previous pictures, the paints look very, uhh, rough. The surface does not have an even spread and there are some bubble holes.
 
 Contrary to the cheap look, the paints are surprisingly **easy to pick up** and **the colours are very intense and vibrant**. This is definitely a match to other artist grade brands.
 
 It fits the stereotypical Russian style — not delicate, but the quality is good.
 
-One thing to note is that the paints are a little sticky and I read that it can be even stickier in hot weather. I live in 44°N so it's probably okay, but I guess it might be a trouble for people who live in warmer area.
+One thing to note is that **the paints are a little sticky** and I read that they can be even stickier in hot weather. I live in 44°N so it's probably okay, but I guess it might be a trouble for people who live in warmer area.
 
 ### Colour chart with properties
 
