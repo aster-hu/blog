@@ -73,7 +73,7 @@ Below are the 12 colours in my set and their properties.
 | Cadmium Lemon | PY35 | 3 | ◑ | Semi | |
 | Cadmium Yellow Medium | PY35 | 3 | ⬤ | Non | |
 | Yellow Ochre | PY43, PY154 | 2 | ◑ | Non | |
-| Cadmium Red | PR108 | 3 | ⬤ | Non | Y |
+| Cadmium Red Light | PR108 | 3 | ⬤ | Non | Y |
 | Carmine | PR19 | 3 | ◯ | Stain | |
 | Ultramarine | PB29 | 3 | ◑ | Semi | Y |
 | Azure | PB15 | 3 | ◯ | Stain | |
