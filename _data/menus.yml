@@ -13,3 +13,7 @@
 - title: about
   url: /about/
   external: false # set true if you using external link, see below
+
+- title: sleep tracker
+  url: /sleep/
+  external: false # set true if you using external link, see below
