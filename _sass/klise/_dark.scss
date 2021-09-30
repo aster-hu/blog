@@ -281,7 +281,7 @@ body[data-theme="dark"] {
   .highlight .k { color: #cc99cc } /* Keyword */
   .highlight .l { color: #f99157 } /* Literal */
   .highlight .n { color: #f2f0ec } /* Name */
-  .highlight .o { color: #66cccc } /* Operator */
+  .highlight .o { color: #66cccc; font-weight: bold } /* Operator */
   .highlight .p { color: #f2f0ec } /* Punctuation */
   .highlight .cm { color: #747369 } /* Comment.Multiline */
   .highlight .cp { color: #747369 } /* Comment.Preproc */
