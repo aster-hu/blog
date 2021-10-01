@@ -2,7 +2,7 @@
 title: "Aster Hu's Blog | Asteroid" # site title
 description: >- # site description
   "Aster Hu's blog"
-lang: en-US # default lang
+lang: en-CA # default lang
 timezone: America/Toronto # set your timezone
 # image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/aster-hu/blog # site repo [optional]
@@ -17,7 +17,7 @@ author:
   github: aster-hu # github username
   # twitter: twitter_username # twitter username
   # facebook: facebook_username # facebook username
-  email: asterhu17@gmail.com # email address
+  email: hello@asterhu.com # email address
   avatar: /assets/img/palette.jpg # change with your own avatar
 
 # URL settings
