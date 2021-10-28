@@ -116,8 +116,8 @@
 
   > p {
     margin: 0;
-    padding-top: $spacing-full - 15;
-    padding-bottom: $spacing-full - 15;
+    padding-top: $spacing-full - 20;
+    padding-bottom: $spacing-full - 20;
   }
 
   ul.task-list {
@@ -171,14 +171,14 @@
   }
 
   h1 {
-    @include relative-font-size(1.5);
+    @include relative-font-size(2);
     border-bottom: 1px solid $light;
     padding-bottom: 4px;
   }
 
   h2 {
-    @include relative-font-size(1.375);
-  }
+    @include relative-font-size(1.7);
+    }
 
   h3 {
     @include relative-font-size(1.3);

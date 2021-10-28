@@ -93,7 +93,7 @@ plugins:
 
 toc:
   min_level: 1
-  max_level: 4
+  max_level: 3
   ordered_list: false
   no_toc_section_class: no_toc_section
   list_id: toc
