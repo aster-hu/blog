@@ -8,22 +8,21 @@ On my GitHub profile, I have an *About Me* session that includes my most recent 
 
 ![profile](profile.png)
 
-## What is Profile README
+## Github bonus: a dynamic portfolio/resume!
+
 Github has an awesome feature<sup id="profile">[[1]](#reference)</sup> to show profile README at the top of your profile page. It can be used as resume, project showcase, or anything you would like to tell the world.
 
 It can be easily done by creating a README.md in the special repository `/username/username/`, and all content of this README file will be presented on profile page. In my case, my repo is [https://github.com/aster-hu/aster-hu](https://github.com/aster-hu/aster-hu)
-
-## Goal: dynamic content
 
 In my README file, I have a section for my 5 recent blog posts. I can manually update the content, of course, but what I want to achieve is to have the title and link automatically updated whenever I add a new post. It can be done by setting up a [GitHub Action](https://docs.github.com/en/actions/quickstart) workflow<sup id="githubaction">[[2]](#reference)</sup>.
 
 The mechanism of GitHub Action is similar to Microsoft Power Automate — it is triggered by a specific event or time, and then perform a series of actions. In this case, I want the workflow to run a Python script daily that scrapes recent posts from my blog.
 
-## Create Python script
+## How to #1: create Python script
 
 The Python script is to scrape contents from my website. I used [Eugene Yan](https://github.com/eugeneyan/eugeneyan/)<sup id="script">[[3]](#reference)</sup>'s script and will explain a bit more in this section. The script `build_readme.py` can be viewed [here](https://github.com/aster-hu/aster-hu/blob/main/build_readme.py).
 
-### 1. Extract blog posts
+#### 1. Extract blog posts
 
 Naturally, the first step is to extract the data I need from my blog. It is done by `feedparser` which retrieves post title, url and publish date from RSS feed of this site.
 
@@ -46,7 +45,7 @@ def fetch_writing():
            ], entry_count
 ```
 
-### 2. Replace README
+#### 2. Replace README
 
 Next is to find where the data should go. This is done by searching keyword `Blogpost` in README. For example, below is my markdown README file. You can see the comment blocks of `<!-- Blogpost starts -->` and `<!-- Blogpost ends -->`.
 
@@ -81,7 +80,7 @@ def replace_writing(content, marker, chunk, inline=False):
     return r.sub(chunk, content)
 ```
 
-### 3. Execute the code
+#### 3. Execute the code
 
 The above steps have defined the function. Now we need to put it into execution, so that it can retrieve the data and rewrite the file.
 
@@ -101,13 +100,13 @@ if __name__ == '__main__':
     readme_path.open('w').write(rewritten_entries)
 ```
 
-## Set up workflow in GitHub Action
+## How to #2: set up workflow in GitHub Action
 
 This step will create a GitHub Action workflow.
 
 First we need to create `.github/workflows` directory (two folders) in the special repository. In this directory, create a file named `build.yml`. My yaml file can be viewed [here](https://github.com/aster-hu/aster-hu/blob/main/.github/workflows/build.yml) and I will explain each section as follows.
 
-### Action trigger
+#### 1. Action trigger
 
 As I mentioned before, this workflow will run daily, which is a time-based trigger. I set it to run every day at midnight by [cron](https://crontab.guru/), a standard command-line scheduler.
 
@@ -132,7 +131,7 @@ Lines before `jobs` define the action trigger. The line `cron:  '0 0 * * *'` rep
 
 The cron schedule can be configured on [crontab site](https://crontab.guru/), which will translate the time expression to cron format. More examples can be viewed [here](https://crontab.guru/examples.html).
 
-### Set up environment
+#### 2. Set up environment
 
 A workflow consists of multiple actions. Each value in `name` category defines one action. Usually the first few actions is to set up the environment, such as selecting the python version, installing dependencies as below.
 
@@ -151,7 +150,7 @@ A workflow consists of multiple actions. Each value in `name` category defines o
 
 Because I used `feedparser` in the Python script and it is not a build-in library in Python 3.8, I need to put it as dependencies. To do so, I created a `requirements.txt` in the repository and write `feedparser` in [this text file](https://github.com/aster-hu/aster-hu/blob/main/requirements.txt).
 
-### Update content
+#### 3. Update content
 
 The next action is to run our Python script `build_readme.py` and concatenate `README.md` file.
 
@@ -163,7 +162,7 @@ The next action is to run our Python script `build_readme.py` and concatenate `R
         cat README.md
 ```
 
-### Push changes to GitHub
+#### 4. Push changes to GitHub
 
 At this point, the contents in README file has been updated on local repository. We still need to push the changes to GitHub to update the GitHub profile page. 
 
@@ -182,7 +181,7 @@ The commit is pushed by Github Action bot, so credential is not needed.
         git push
 ```
 
-## Review GitHub Action workflow
+## Check the outcome
 
 The workflow has now been set up. Each time it runs, the status will be shown in `Actions` of this repository. 
 
@@ -194,8 +193,6 @@ It is fairly easy and takes only few hours to set up everything, and the outcome
 
 ## Reference
 
-<sup>[[1]](#profile)</sup>GitHub — [Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
-
-<sup>[[2]](#githubaction)</sup>GitHub — [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
-
-<sup>[[3]](#script)</sup>Eugeneyan — [Eugeneyan's repository](https://github.com/eugeneyan/eugeneyan/)
+<sup>[[1]](#profile)</sup>GitHub Docs. *Managing your profile README*. [https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)  
+<sup>[[2]](#githubaction)</sup>GitHub Docs. *Quickstart for GitHub Actions*. [https://docs.github.com/en/actions/quickstart](https://docs.github.com/en/actions/quickstart)  
+<sup>[[3]](#script)</sup>Eugeneyan. Eugeneyan's repository. [https://github.com/eugeneyan/eugeneyan](https://github.com/eugeneyan/eugeneyan/)
