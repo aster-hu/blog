@@ -265,3 +265,9 @@
 .post-updated-at {
   font-family: "Ubuntu mono", "monospace";
 }
+
+.MathJax_Display, .MJXc-display, .MathJax_SVG_Display {
+  overflow-x: scroll;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
