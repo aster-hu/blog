@@ -83,7 +83,10 @@ exclude:
   - lighthouse.png
   - klise-*.gem
   - klise.gemspec
-
+  - _drafts/**/*.jpg
+  - _drafts/**/*.png
+  - _drafts/**/*.gif
+  
 # Plugins
 plugins:
   - jekyll-feed
