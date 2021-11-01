@@ -52,10 +52,26 @@ layout: compress
               {{ page.date | date: "%b %d, %Y" }}
             </time>
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+              <span itemprop="name">
               {% if page.author %}
-                <span itemprop="name">{{ page.author }}</span>
-              {% else %}
-                <span itemprop="name">{{ site.author.name }}</span>
+                  {% assign authorCount = page.author | size %}
+                  {% if authorCount == 1 %}
+                      {{ page.author | first }}
+                  {% else %}
+                      {% for author in page.author %}
+                          {% if forloop.first %}
+                              {{ author }}
+                          {% elsif forloop.last %}
+                              , {{ author }}
+                          {% else %}
+                              , {{ author }}
+                          {% endif %}
+                      {% endfor %}
+                  {% endif %}
+                  
+                  {% else %}
+                  {{ site.author.name }}
+                  </span>
               {% endif %}
             </span>
             <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
