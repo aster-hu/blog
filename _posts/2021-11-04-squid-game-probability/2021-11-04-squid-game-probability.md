@@ -142,7 +142,7 @@ P_survival = P3.cumsum()
 
 As we can see, starting from player 13, they can pretty much chill out because they have over 95% chance to survive. In the mean time, player 10 has the highest chance to become the first one to cross the bridge.
 
-Of course, it is an optimistic estimate due to our [assumption](#assumption).
+Obviously, it is an optimistic estimate due to our [assumption](#assumption).
 
 ## Compare with simulation
 
