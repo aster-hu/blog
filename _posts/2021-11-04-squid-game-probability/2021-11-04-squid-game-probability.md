@@ -1,6 +1,6 @@
 ---
 title: "Squid Game: The probability of Glass Bridge"
-tags: [data, R, python]
+tags: [data, python]
 toc: True
 author:
   - Rick Xie
@@ -11,6 +11,7 @@ author:
 
 I read an interesting article recently about Squid Game, in which the author uses Monte Carlo simulation to calculate the possible outcomes of Glass Bridge<sup id="simulation">[[1]](#reference)</sup>. So I thought it would be interesting to compare the mathematical probability vs. the simulation result.
 
+**TL;DR**: jump to [mathematical probability table](#python-implementation) and [computer simulation chart](#compare-with-simulation).
 ## Assumption
 
 Knowing that the probability is theory-based, there are few assumptions for the calculation.
@@ -141,7 +142,7 @@ P_survival = P3.cumsum()
 
 As we can see, starting from player 13, they can pretty much chill out because they have over 95% chance to survive. In the mean time, player 10 has the highest chance to become the first one to cross the bridge.
 
-Of course, it is an optimistic estimate due to our [assumption](#assumption). 
+Of course, it is an optimistic estimate due to our [assumption](#assumption).
 
 ## Compare with simulation
 
@@ -154,7 +155,7 @@ So yes, it's a game based on pure luck and math. What lesson we learned from it?
 
 Of course, as a risk-averse person, I hope no one have to face the same choice.
 
-> Special thanks to my partner and SO, Rick, for his tremendous contributions to the mathematical calculation in this article
+> Special thanks to my partner and SO, Rick, for his tremendous contributions to the mathematical calculation in this post
 
 ## Reference
 
