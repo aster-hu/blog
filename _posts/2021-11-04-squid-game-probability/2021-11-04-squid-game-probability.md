@@ -21,7 +21,7 @@ Knowing that the probability is theory-based, there are few assumptions for the 
 3. Everyone acts in the best interest of the team; the player won't block the bridge
 4. The number of steps is greater than or equal to the number of players
 
-## A Simple Example
+## A simple example
 
 #### The settings
 
