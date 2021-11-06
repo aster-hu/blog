@@ -23,11 +23,11 @@ Knowing that the probability is theory-based, there are few assumptions for the 
 
 ## A Simple Example
 
-### The setting
+#### The settings
 
-Suppose there are only 3 steps and 3 players. In each step, a player guess which glass (of multiple glasses to choose) is the correct one. In the show, there are two glasses to guess in each step, the probability of any player guessing a correct glass in each step is $\frac{1}{2}$. To better illustrating different probabilities later, I generalize the probability using $p$ here. That is, if there are 5 glasses to choose in each step, then any player has a probability of $p=\frac{1}{5}$ to guess a correct glass in each step.
+Suppose there are only 3 steps and 3 players. In each step, a player guess which glass (of multiple glasses to choose) is the correct one. In the show, the probability of any player guessing a correct glass in each step is $\frac{1}{2}$. To better illustrate different probability later, I generalize the probability using $p$ here.
 
-Each player <u>starts their game</u> facing different steps. "*The player starts their game facing $x$ steps*" means the previous player just dies, and the player has $x$ steps to choose. For example, in our simple game with 3 steps and 3 players, player 1 _start the game_ by facing 3 steps. Player 2's game starts **only** when player 1 makes one incorrect guess: if player 1 makes a wrong guess in the 1st step, player 2 starts the game by facing 2 steps; if player 1 makes one correct guesses followed by an incorrect choice in the 2nd step, then player 2 starts the game by facing 1 step; if player 1 makes two correct guesses and an incorrect choice in the last step (the 3rd step), then player 2 starts the game by facing 0 steps; player 2 may survive without even starting the game, as long as player 1 makes all correct guesses in 3 steps.
+Each player <u>starts their game</u> facing different steps. "*The player starts their game facing $x$ steps*" means the previous player just dies, and the player has $x$ steps to choose. For example, in our simple game with 3 steps and 3 players, player 1 _starts the game_ by facing 3 steps. Player 2 could start the game by facing 2, 1, or 0 steps, depending on where player 1 makes a wrong choice and dies.
 
 #### Player 1
 
@@ -44,11 +44,13 @@ For player 2, there are multiple mutually exclusive events, depending on the res
 1. If Player 1 makes 2 correct guesses, Player 2 knows the correct choice of the 1st to 3rd step and faces 0 steps (denoted as $F_2^0$);
 1. If Player 1 survives (makes all 3 correct guesses), Player 2 also survives the game. The probability of player 2 survives **and** player 1 survives, is equal to the probability that Player 1 survives, or $P(S_1)$.
 
-**By law of total probability, the sum of the probabilities of these events are the probability that Player 2 survives**:
+**By law of total probability, the sum of the probability of these events are the probability that Player 2 survives**:
 
 $$P(S_2)=\underbrace{P(S_2|F_2^2)P(F_2^2)+P(S_2|F_2^1)P(F_2^1)+P(S_2|F_2^0)P(F_2^0)}_\text{Probability of Player 2 being the first survivor}+P(S_1)$$
 
 The sum of the first three components happen to be the probability of player 2 being the first survivor in the game.
+
+The probability that Player 2 survives conditional on when Player 2 starts the game by facing $k$ steps(i.e. $P(S_2\|F_2^k)$) is easily calculated and similar to Player 1. That is, $P(S_2\|F_2^k) = p^k$. The probability of Player 2 facing $k$ steps (i.e. $P(F_2^k)$) can be derived from Player 1. For instance, Player 2 can only start the game by facing 0 steps when Player 1 dies exactly at the 3rd step. Therefore, $P(F_2^0) = p^2(1-p)$.
 
 #### Player 3
 
@@ -60,7 +62,7 @@ Similarly, the event that Player 3 survives can be decomposed too. The trick her
    1. Player 2 faces 1 step and 0 correct guesses;
 1. If Player 2 survives (no matter how many steps Player 2 faces), Player 3 also survives. This is equal to the probability that Player 2 survives, $P(S_2)$.
 
-**The sum of above probabilities is the chances that Player 3 survives:**
+**The sum of above probability is the chances that Player 3 survives:**
 
 $$P(S_3)=\underbrace{P(S_3|F_3^1)P(F_3^1)+P(S_3|F_3^0)P(F_3^0)}_\text{Probability of Player 3 being the first survivor}+P(S_2)$$
 
@@ -118,7 +120,7 @@ P3 = (P1*P2).sum(axis=1)
 P_survival = P3.cumsum()
 ```
 <br>
-**The survival probability `P_survival` is shown as the table below.**
+**The survival probability `P3` and `P_survival` is shown as the table below.**
 
 <table class="display">
 <colgroup>
@@ -151,9 +153,9 @@ When we compare the mathematical probability with computer simulation, the resul
 ![p](survivor_sim.png)
 *Computer simulation: survival probability of Glass Bridge*
 
-So yes, it's a game based on pure luck and math. What lesson we learned from it? Well, I guess it would be: *going something in the middle is not always the safest choice*.
+So yes, it's a game based on pure luck and math. What lesson did we learn from it? Well, I guess it would be: *being in the middle is not always the safest choice*.
 
-Of course, as a risk-averse person, I hope no one have to face the same choice.
+Of course, as a risk-averse person, I hope no one has to face the same choice.
 
 > Special thanks to my partner and SO, Rick, for his tremendous contributions to the mathematical calculation in this post
 
