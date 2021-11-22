@@ -1,6 +1,6 @@
 ---
 title: Hosting Jekyll Website on Github
-tags: jekyll website-building
+tags: jekyll website
 ---
 
 ## Before Setup

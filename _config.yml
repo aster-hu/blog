@@ -19,6 +19,7 @@ author:
   # facebook: facebook_username # facebook username
   email: hello@asterhu.com # email address
   avatar: /assets/img/palette.jpg # change with your own avatar
+  linkedin: asterhu #linkedin page username
 
 # URL settings
 url: "https://asterhu.com" #
@@ -82,7 +83,10 @@ exclude:
   - lighthouse.png
   - klise-*.gem
   - klise.gemspec
-
+  - _drafts/**/*.jpg
+  - _drafts/**/*.png
+  - _drafts/**/*.gif
+  
 # Plugins
 plugins:
   - jekyll-feed
@@ -92,7 +96,7 @@ plugins:
 
 toc:
   min_level: 1
-  max_level: 4
+  max_level: 3
   ordered_list: false
   no_toc_section_class: no_toc_section
   list_id: toc

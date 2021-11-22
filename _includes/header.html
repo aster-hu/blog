@@ -178,5 +178,20 @@
     gtag('config', 'UA-175470713-1');
   </script>
 
+  <!-- Add Latex support: mathjax 3.0 -->
+  <!-- source: https://docs.mathjax.org/en/latest/web/configuration.html -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
 
 </head>

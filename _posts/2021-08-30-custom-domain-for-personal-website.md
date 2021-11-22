@@ -1,6 +1,6 @@
 ---
 title: "I Finally Bought My Own Domain"
-tags: [website-building]
+tags: [website]
 toc: true
 ---
 

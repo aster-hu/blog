@@ -21,8 +21,8 @@ My other hobbies:
 Time management and productivity is a timeless topic.
 
 **To reach me ✨** &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/asterhu/"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/aster-hu"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:{{ site.author.email }}"><i class="far fa-envelope-open"></i></a>
 
 <br><br><br>
