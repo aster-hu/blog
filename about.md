@@ -2,21 +2,23 @@
 title: Aloha
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm an analyst working at a bank in Toronto, Canada. This blog for documentation about my programming journey, running on jekyll, hosting on Github Pages and using theme [klise](https://github.com/piharpi/jekyll-klise).
 ---
 
 I'm a senior analyst working at TD Bank in Toronto, Canada. My job focuses on data oversight and lifecycle management; I write code for my work, but mostly just for fun.
 
-Not a hardcore developer per se as I don't have a Computer Science background, but I believe anyone who has the passion to learn can thrive in programming.
+Not a hardcore developer per se as I don't come with the Computer Science background, but I think anyone with the desire to learn can benefit from technology because it's so awesome.
 
-From my point of view, blogging is a systematic way of contemplation, and I need this reason to push myself to build the learning into my routine, otherwise I would get lost.
+From my perspective, blogging is a systematic way of contemplation and reflection, and I need this reason to push myself to incorporate the learning into my routine, otherwise I would lost track of it. Besides, static websites looks fantastic and, in my opinion, are a much more elegant solution than WordPress.
 
-My other hobbies:
+What I usually do:
 
+- Read Wikipedia
+- Google random questions
+- Knitting
 - Watercolour sketching
-- Calligraphy (Fountain pens)
+- Calligraphy
+- Dungeons & Dragons
 - Video games
-- TRPG (D&D and CoC)
 
 Time management and productivity is a timeless topic.
 
