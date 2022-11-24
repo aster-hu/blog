@@ -1,6 +1,6 @@
 ---
 title: "How to Setup Website on Netlify for Namecheap Domain"
-tags: [website]
+tags: [how-to]
 toc: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Import Excel to R: ampersand shows `&amp;` instead of `&` when using openxlsx"
-tags: [R]
+tags: [data, R]
 toc: true
 ---
 

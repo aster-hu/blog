@@ -1,6 +1,6 @@
 ---
 title: "DIY a Watercolour Palette Using Altoids Mint Tin"
-tags: [watercolour, sketch]
+tags: [watercolour, how-to]
 ---
 
 > This is a recipe to make your own watercolour palette using an Altoids mint tin —— or any other tin you have.

@@ -1,6 +1,6 @@
 ---
 title: "It's OK to be Imperfect"
-tags: random
+tags: [life]
 ---
 
 I have not updated my website for almost a year until last month. 

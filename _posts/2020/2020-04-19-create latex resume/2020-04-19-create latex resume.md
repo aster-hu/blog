@@ -1,6 +1,6 @@
 ---
 title: Create Résumé/CV Using LaTex
-tags: latex random
+tags: [how-to]
 ---
 
 ## Outcome

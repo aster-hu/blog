@@ -1,6 +1,6 @@
 ---
 title: How to Sync Atom Packages Between Devices
-tags: atom
+tags: [how-to]
 ---
 
 Atom itself doesn't provide cloud syncing. Lucky, there're other options out there can provide sync support.

@@ -1,6 +1,6 @@
 ---
 title: Create a Site by Using Jekyll
-tags: jekyll website
+tags: [how-to]
 ---
 
 ## Install Jekyll

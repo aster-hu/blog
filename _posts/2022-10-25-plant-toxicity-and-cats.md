@@ -1,6 +1,6 @@
 ---
 title: "The truth about houseplants that are toxic to cats"
-tags: [random, cats]
+tags: [life]
 toc: true
 ---
 

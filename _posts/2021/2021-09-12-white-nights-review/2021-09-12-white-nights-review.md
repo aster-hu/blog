@@ -1,6 +1,6 @@
 ---
 title: "Review White Nights 12-Watercolour Box Set: Pros and Cons"
-tags: [watercolour, sketch]
+tags: [watercolour]
 toc: true
 ---
 

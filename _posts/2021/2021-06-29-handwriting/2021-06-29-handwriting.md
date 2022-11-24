@@ -1,6 +1,6 @@
 ---
 title: "Handwriting"
-tags: [handwriting]
+tags: [calligraphy]
 ---
 
 Paper：Tomoe River Paper  

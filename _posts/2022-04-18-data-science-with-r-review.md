@@ -1,6 +1,6 @@
 ---
 title: "Course Review: Data Science with R"
-tags: [review, data, R]
+tags: [data, R]
 toc: true
 ---
 

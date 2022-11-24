@@ -1,6 +1,6 @@
 ---
-title: Imgur Upload Tool for Mac
-tags: random macos
+title: Automatically uploading MacOS screenshot to Imgur
+tags: [how-to]
 ---
 
 When I'm writing blog, I often need to attach picture URL from Imgur. It becomes extremely annoying to open Imgur each time to upload and copy URL, so I started looking for plugins/tools to make the process easier.
@@ -9,7 +9,7 @@ Surprisingly, plugins for Safari and Chrome are all dead because Safari doesn't 
 
 [This article](https://help.imgur.com/hc/en-us/articles/209592766-Tools-for-Imgur) lists many other options, however some of them is outdated and not working. Finally I went with [mac2imgur](https://github.com/mileswd/mac2imgur). It's a simple tool that can upload image and also copy the Imgur URL.
 
-*Note: The project is not actively maintained. I tested it in OS Mojave but cannot confirm other OS.*
+*Note: The project is not actively maintained. I tested it in OS Mojave but cannot confirm for other operation systems.*
 
 ## Install
 Download and install directly from [latest release](https://github.com/mileswd/mac2imgur/releases/tag/b226).

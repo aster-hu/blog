@@ -1,6 +1,6 @@
 ---
-title: "From Excel to R: Beginner's Guide"
-tags: R excel
+title: "From Excel to R: Beginner's Guide on Data Manipulation"
+tags: [R, data]
 ---
 
 ## What is R and why?

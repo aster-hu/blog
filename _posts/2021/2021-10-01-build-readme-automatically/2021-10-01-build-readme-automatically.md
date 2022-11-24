@@ -1,6 +1,6 @@
 ---
 title: "How to Create a Dynamic Github Profile"
-tags: [website, python, github]
+tags: [how-to, python]
 toc: true
 ---
 
