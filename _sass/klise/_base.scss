@@ -130,7 +130,7 @@ figure > img {
 
 // Image caption
 figcaption {
-  font-size: 13px;
+  font-size: $base-font-size;
   text-align: center;
 }
 
@@ -290,6 +290,8 @@ blockquote {
     max-width: calc(#{$narrow-size} - (#{$spacing-full}));
     padding-right: $spacing-full - 10;
     padding-left: $spacing-full - 10;
+    margin-left: 5px;
+    margin-right: 5px;
 
     &.blurry {
       animation: 0.2s ease-in forwards blur;
@@ -375,13 +377,16 @@ img + em {
 } //image captions
 
 // toc
-.section-nav {
-  // background-color: $white;
-  margin: 5px 0;
-  padding: 10px 30px;
-  border: 1px dotted $gray;
-  border-radius: 3px;
-  position: sticky;
-	top: 2rem;
-	align-self: start;
+.table-of-contents {
+
+  .section-nav {
+    // background-color: $white;
+    margin: 5px 0;
+    padding: 10px 30px;
+    // border: 1px dotted $gray;
+    // border-radius: 3px;
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    }
   }

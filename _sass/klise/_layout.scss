@@ -217,7 +217,7 @@
 
 // Content
 .posts-item-note {
-  font-size: $base-font-size;
+  font-size: $base-font-size * 1.3;
   font-weight: 700;
   margin-bottom: 5px;
   color: $black;
@@ -235,24 +235,31 @@
   }
 
   .post-item-date {
-    min-width: 96px;
+    min-width: 50px;
     // color: $black;
-    color: $dark-light;
-    font-weight: 700;
-    padding-right: 10px;
+    color: $dark-gray;
+    font-size: smaller;
+    font-weight: lighter;
+    align-self: center;
+    // padding-right: 10px;
+    margin-left: auto; 
+    margin-right: 0;
 
+    // hide date on mobile  
     @include media-query($on-mobile) {
-      font-size: 16px;
+      display: none;
+      font-size: smaller;
     }
   }
 
   .post-item-title {
     margin: 0;
     border: 0;
-    padding: 0;
+    padding: 5px;
     font-size: $base-font-size;
     font-weight: normal;
     letter-spacing: 0.1px;
+    
 
     a {
       color: $text-base-color;
@@ -262,6 +269,15 @@
         color: $black;
       }
     }
+
+    @include media-query($on-mobile) {
+      padding: 2px;
+      -webkit-hyphens: auto;  // 
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+
   }
 
   .post-item-tags {
@@ -272,6 +288,7 @@
     height: auto;
     margin-left: auto; 
     margin-right: 0;
+    padding: 5px;
     .tag-item {
       color: $text-link-blue;
       &:hover,
@@ -395,6 +412,7 @@
   height: auto;
   .tag-item {
     padding: 1px 3px;
+    margin: 5px;
     border-radius: 2px;
     border: 1px solid rgba(128, 128, 128, 0.1);
     background-color: rgba(128, 128, 128, 0.1);

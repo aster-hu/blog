@@ -18,10 +18,10 @@ excerpt: Sorted article by tags.
   <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.tags[name] -%}
     <article class="post-item" id="results-container">
-      <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
       <h3 class="post-item-title">
         <a href="{{ post.url }}">{{ post.title | escape }}</a>
       </h3> 
+      <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
     </article>
   {%- endfor -%}
 {%- endfor -%}
