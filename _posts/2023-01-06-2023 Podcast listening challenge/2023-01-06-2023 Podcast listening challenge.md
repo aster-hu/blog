@@ -15,25 +15,39 @@ Podcasts are terrific medium to listen to during spare time. I used to listen to
 
 ## What podcasts to listen to?
 
-Interest is the ultimate motivation. I mainly listen to true crime podcasts because I found cases, especially cold cases, fascinating. Find something that you really like, not what you want you to like.
+Interest is the ultimate motivation. I mainly listen to true crime podcasts because I found cold cases fascinating. Find something that you really like, not what you want you to like.
 
 The podcasts I'm currently listening to:
 
 ### News
 
-[Front Burner](https://www.cbc.ca/listen/cbc-podcasts/209-front-burner): This is the only news podcast that I listened to because this type of podcast updates pretty frequently (usually everyday) and the topic of the content is similar. The average length is 20~30 minutes.
+<img src="https://www.cbc.ca/radio/podcasts/images/950x950/podcast-template-front-burner-2022.jpg" width="300" length="300">
+
+[Front Burner](https://www.cbc.ca/listen/cbc-podcasts/209-front-burner): This is the only news podcast that I listened to because this type of podcast updates pretty frequently (usually everyday) and the topic is similar. The host Jayme Poisson is incredible - she asks meaningful questions without bias, and I like that she always asks the guest to provide background knowledge at the beginning of the episode so that the audience can understand the context even without any prior knowledge. The average length of each episode is 20~30 minutes.
 
 ### True crime
 
-[The Next Call with David Ridgen](https://www.cbc.ca/listen/cbc-podcasts/1018-the-next-call): The best true crime podcast. The tempo and pace is great, and it's the most straightforward/to-the-point true crime podcast. The investigation was conducted virtually via phone interview. The host, David Ridgen, is compassionate to victim families and has his ways to make people talk. The average length is about 50 minutes * 3 episodes for a case.
+<img src="https://www.cbc.ca/radio/podcasts/images/950x950/thenextcall-podcast-template-lg.jpg" width="300" length="300">
+
+[The Next Call with David Ridgen](https://www.cbc.ca/listen/cbc-podcasts/1018-the-next-call): One of the best true crime podcasts in Canada. The tempo and pace is great, and it's the most straightforward/to-the-point true crime podcast. The investigation was conducted virtually via phone interview. The host, David Ridgen, is compassionate to victim families and has his ways to make people talk. The average length is about 50 minutes * 3 episodes for a case.
+
+<img src="https://www.cbc.ca/radio/podcasts/images/950x950/SKS-podcast-template.jpg" width="300" length="300">
 
 [Someone Knows Something](https://www.cbc.ca/listen/cbc-podcasts/128-someone-knows-something): Another excellent podcast series from David Ridgen. The difference is that the investigation of SKS was conducted on site, and there will be more contents of describing the scene, therefore it's much longer than The Next Call. The average length is about 40 minutes * 10 episodes for a case.
 
+<img src="https://www.cbc.ca/radio/podcasts/images/950x950/podcast-template-uncover-generic.jpg" width="300" length="300">
+
 [Uncover](https://www.cbc.ca/listen/cbc-podcasts/187-uncover): The investigation approach is similar to SKS, however, Uncover is more focus on storytelling rather than investigation. It is more heavily edited.
+
+<img src="https://www.cbc.ca/radio/podcasts/images/950x950/missingandmurdered-podcast-template.jpg" width="300" length="300">
 
 [Missing & Murdered](https://www.cbc.ca/listen/cbc-podcasts/148-missing-murdered-finding-cleo): I’ve only listened to S1 so far and it's not very impressive. There were too many unnecessary fillers and anecdotes. It is especially annoying during the mid-later stage of the investigation, where there's just too much time spent listening to the host waiting to approach someone. The presentation can definitely be better.
 
+**Update**: Season 2 is incredible! The presentation is so much better than S1. It is an exceptional case that covered lots of horrific and sad stories during the Sixties Scoop in Canadian history.
+
 ### History
+
+<img src="https://www.cbc.ca/radio/podcasts/images/950x950/sloc-podcast-template-2022.jpg" width="300" length="300">
 
 [The Secret Life of Canada](https://www.cbc.ca/listen/cbc-podcasts/203-the-secret-life-of-canada): It is a very interesting podcast that tells interesting things about Canada, mostly related to history or social culture. I found it relatable because I'm a new Canadian. There're many other podcasts that serve educational purposes such as Science Friday or Stuff You Should Know, but I can't keep up my interest and eventually unsubscribe them.
 
