@@ -292,6 +292,7 @@ blockquote {
     padding-left: $spacing-full - 10;
     margin-left: 5px;
     margin-right: 5px;
+    font-size: $base-font-size * 0.94;
 
     &.blurry {
       animation: 0.2s ease-in forwards blur;
