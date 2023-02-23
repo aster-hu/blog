@@ -3,6 +3,8 @@ title: How to Setup Python in MacOS
 tags: [how-to, python]
 ---
 
+> **2023 UPDATE: I wrote an [update version of this article](/Setup-python-environment-for-ARM-based-Mac), about setting up python on the new ARM-based Mac for macOS Monterey 12.3 and later.**
+
 
 ## Check Current Version of Python
 
