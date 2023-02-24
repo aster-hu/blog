@@ -1,5 +1,5 @@
 ---
-title: "Setup a clean python environment for ARM-based Mac in 2023"
+title: "Set up a clean python environment for ARM-based Mac in 2023"
 tags: [how-to, python]
 ---
 
